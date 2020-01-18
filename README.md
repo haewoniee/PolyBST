@@ -26,23 +26,23 @@ OOP 2 수업에서 Polymorphic Binary Search Tree를 구현하였습니다.
 - Junit으로 테스트 한 모습
 
         @Test
-        	public void testDelete2() {
-        		PolymorphicBST<Integer,String> ptree = new PolymorphicBST<Integer,String>();
-        		ptree.put(20, "Twenty");
-        		ptree.put(10, "Ten");
-        		ptree.put(50, "Fifty");
-        		ptree.put(40, "Fourty");
-        		ptree.put(60, "Sixty");
-        		ptree.put(45, "FourtyFive");
-        		ptree.put(44, "FourtyFour");
-        		ptree.remove(60);
-        		assertEquals(Integer.valueOf(50), ptree.getMax());
-        		PlaceKeysValuesInArrayLists<Integer, String> task = 
-        				new PlaceKeysValuesInArrayLists<Integer, String>();
-        		//task에 ptree의 key,value를 집어넣음
-        		ptree.inorderTraversal(task);
-        		assertEquals("[10, 20, 40, 44, 45, 50]", task.getKeys().toString());
-        	}
+        public void testDelete2() {
+        	PolymorphicBST<Integer,String> ptree = new PolymorphicBST<Integer,String>();
+        	ptree.put(20, "Twenty");
+        	ptree.put(10, "Ten");
+        	ptree.put(50, "Fifty");
+        	ptree.put(40, "Fourty");
+        	ptree.put(60, "Sixty");
+        	ptree.put(45, "FourtyFive");
+        	ptree.put(44, "FourtyFour");
+        	ptree.remove(60);
+        	assertEquals(Integer.valueOf(50), ptree.getMax());
+        	PlaceKeysValuesInArrayLists<Integer, String> task = 
+        			new PlaceKeysValuesInArrayLists<Integer, String>();
+        	//task에 ptree의 key,value를 집어넣음
+        	ptree.inorderTraversal(task);
+        	assertEquals("[10, 20, 40, 44, 45, 50]", task.getKeys().toString());
+        }
 
 ---
 
