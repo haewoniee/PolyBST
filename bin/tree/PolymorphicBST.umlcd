@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_oN8asDn4Eeq2A4YSv3yYAg">
+  <modelElement href="PolymorphicBST.uml#_lo1ZoDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qwhFIDn4Eeq2A4YSv3yYAg" sourceAnchor="316.0,148.0" targetAnchor="158.0,295.0" target="_qx1TwDn4Eeq2A4YSv3yYAg" source="_qx1TwDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPQtwDn4Eeq2A4YSv3yYAg"/>
+    <bendpoints xmi:id="_r-rhYDn4Eeq2A4YSv3yYAg" sourceX="63" targetX="221" targetY="-147"/>
+    <bendpoints xmi:id="_r-sIcDn4Eeq2A4YSv3yYAg" sourceX="63" sourceY="234" targetX="221" targetY="87"/>
+    <bendpoints xmi:id="_r-svgDn4Eeq2A4YSv3yYAg" sourceX="-158" sourceY="234" targetY="87"/>
+    <stereotypes xmi:id="_qw3qcDn4Eeq2A4YSv3yYAg" name="Reference">
+      <modelElement href="PolymorphicBST.uml#_pPR74Dn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qw11QDn4Eeq2A4YSv3yYAg" text="">
+      <visualProperties xmi:id="_r-y2IDn4Eeq2A4YSv3yYAg" position="-23.5,-215.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qw3DYDn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="">
+      <modelElement href="PolymorphicBST.uml#_pPRU0Dn4Eeq2A4YSv3yYAg"/>
+      <visualProperties xmi:id="_r-wZ4Dn4Eeq2A4YSv3yYAg" position="5.0,-46.5"/>
+      <visibility xmi:id="_qw6twDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qw6GsDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qw3DYTn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="SINGLETON" navigable="true">
+      <modelElement href="PolymorphicBST.uml#_pOKhkDn4Eeq2A4YSv3yYAg"/>
+      <visualProperties xmi:id="_r-zdMDn4Eeq2A4YSv3yYAg" position="0.0,5.5"/>
+      <visibility xmi:id="_qw9KATn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_qw9KADn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qwnLwDn4Eeq2A4YSv3yYAg" targetItem="_qx1TwDn4Eeq2A4YSv3yYAg" sourceItem="_qwlWkDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qwvHkDn4Eeq2A4YSv3yYAg" targetItem="_qx160Tn4Eeq2A4YSv3yYAg" sourceItem="_qwuggDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxCpkDn4Eeq2A4YSv3yYAg" targetItem="_rGacoDn4Eeq2A4YSv3yYAg" sourceItem="_qxCCgDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qxD3sDn4Eeq2A4YSv3yYAg" sourceAnchor="158.0,0.0" targetAnchor="164.0,272.0" dashed="true" superClass="_rGacoDn4Eeq2A4YSv3yYAg" subClass="_qx1TwDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pLuRkDn4Eeq2A4YSv3yYAg"/>
+    <bendpoints xmi:id="_r-svgTn4Eeq2A4YSv3yYAg" sourceY="-21" targetX="403" targetY="33"/>
+    <bendpoints xmi:id="_r-svgjn4Eeq2A4YSv3yYAg" sourceX="-403" sourceY="-21" targetY="33"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qxEewDn4Eeq2A4YSv3yYAg" sourceAnchor="239.0,0.0" targetAnchor="164.0,272.0" dashed="true" superClass="_rGacoDn4Eeq2A4YSv3yYAg" subClass="_q1OmADn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pMYY4Dn4Eeq2A4YSv3yYAg"/>
+    <bendpoints xmi:id="_r-tWkzn4Eeq2A4YSv3yYAg" sourceY="-34" targetX="-26" targetY="33"/>
+    <bendpoints xmi:id="_r-tWlDn4Eeq2A4YSv3yYAg" sourceX="26" sourceY="-34" targetY="33"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qxFF0Dn4Eeq2A4YSv3yYAg" sourceAnchor="0.0,161.0" targetAnchor="0.0,136.0" target="_rGacoDn4Eeq2A4YSv3yYAg" source="_q1OmADn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPXbcDn4Eeq2A4YSv3yYAg"/>
+    <bendpoints xmi:id="_r-svgzn4Eeq2A4YSv3yYAg" sourceX="-99" targetX="-200" targetY="364"/>
+    <bendpoints xmi:id="_r-tWkDn4Eeq2A4YSv3yYAg" sourceX="-99" sourceY="-364" targetX="-200"/>
+    <stereotypes xmi:id="_qxXZsDn4Eeq2A4YSv3yYAg" name="Reference">
+      <modelElement href="PolymorphicBST.uml#_pPYCgDn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qxWyoDn4Eeq2A4YSv3yYAg" text="">
+      <visualProperties xmi:id="_r-15cDn4Eeq2A4YSv3yYAg" position="-21.000000000000014,148.50000000000006"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qxWyoTn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="">
+      <modelElement href="PolymorphicBST.uml#_pPXbcTn4Eeq2A4YSv3yYAg"/>
+      <visualProperties xmi:id="_r-0EQDn4Eeq2A4YSv3yYAg" position="-18.5,5.5"/>
+      <visibility xmi:id="_qxeHYDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qxdgUDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qxWyojn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="left" navigable="true">
+      <modelElement href="PolymorphicBST.uml#_pOWu0Dn4Eeq2A4YSv3yYAg"/>
+      <visualProperties xmi:id="_r-15cTn4Eeq2A4YSv3yYAg" position="-158.99999999999991,5.5"/>
+      <stereotypes xmi:id="_qxjm8Dn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pOX88Dn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qxjm8Tn4Eeq2A4YSv3yYAg" name="MultiDeclaration">
+        <modelElement href="PolymorphicBST.uml#_pOX88Tn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qxjm8jn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pOYkADn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_qxiY0Dn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_qxfVgDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qxFs4Dn4Eeq2A4YSv3yYAg" sourceAnchor="0.0,148.0" targetAnchor="0.0,149.0" target="_rGacoDn4Eeq2A4YSv3yYAg" source="_q1OmADn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPYCgTn4Eeq2A4YSv3yYAg"/>
+    <bendpoints xmi:id="_r-tWkTn4Eeq2A4YSv3yYAg" sourceX="-21" targetX="-122" targetY="338"/>
+    <bendpoints xmi:id="_r-tWkjn4Eeq2A4YSv3yYAg" sourceX="-21" sourceY="-338" targetX="-122"/>
+    <stereotypes xmi:id="_qxYn0Dn4Eeq2A4YSv3yYAg" name="Reference">
+      <modelElement href="PolymorphicBST.uml#_pPYpkDn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qxXZsTn4Eeq2A4YSv3yYAg" text="">
+      <visualProperties xmi:id="_r-48wDn4Eeq2A4YSv3yYAg" position="-21.00000000000003,-85.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_qxXZsjn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="">
+      <modelElement href="PolymorphicBST.uml#_pPYCgjn4Eeq2A4YSv3yYAg"/>
+      <visualProperties xmi:id="_r-3HkDn4Eeq2A4YSv3yYAg" position="-41.0,-46.0"/>
+      <visibility xmi:id="_qxkOATn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qxkOADn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qxYAwDn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="right" navigable="true">
+      <modelElement href="PolymorphicBST.uml#_pPFHkTn4Eeq2A4YSv3yYAg"/>
+      <visualProperties xmi:id="_r-48wTn4Eeq2A4YSv3yYAg" position="-115.50000000000003,5.0"/>
+      <stereotypes xmi:id="_qxkOBDn4Eeq2A4YSv3yYAg" name="MultiDeclaration">
+        <modelElement href="PolymorphicBST.uml#_pPFuoDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qxk1EDn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pPGVsDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_qxkOAzn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_qxkOAjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxG7ADn4Eeq2A4YSv3yYAg" targetItem="_rGacpDn4Eeq2A4YSv3yYAg" sourceItem="_qxGT8Dn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxHiETn4Eeq2A4YSv3yYAg" targetItem="_rGacqTn4Eeq2A4YSv3yYAg" sourceItem="_qxHiEDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxIwMDn4Eeq2A4YSv3yYAg" targetItem="_rGacrjn4Eeq2A4YSv3yYAg" sourceItem="_qxIJIDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxJ-UDn4Eeq2A4YSv3yYAg" targetItem="_rGacszn4Eeq2A4YSv3yYAg" sourceItem="_qxJXQDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxKlYTn4Eeq2A4YSv3yYAg" targetItem="_rGacuDn4Eeq2A4YSv3yYAg" sourceItem="_qxKlYDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxLzgDn4Eeq2A4YSv3yYAg" targetItem="_rGacvjn4Eeq2A4YSv3yYAg" sourceItem="_qxLMcDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxNosDn4Eeq2A4YSv3yYAg" targetItem="_rGacxDn4Eeq2A4YSv3yYAg" sourceItem="_qxMakDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxO20Tn4Eeq2A4YSv3yYAg" targetItem="_rGaczDn4Eeq2A4YSv3yYAg" sourceItem="_qxO20Dn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxRTETn4Eeq2A4YSv3yYAg" targetItem="_rGac2Dn4Eeq2A4YSv3yYAg" sourceItem="_qxRTEDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxShMTn4Eeq2A4YSv3yYAg" targetItem="_rGac4Tn4Eeq2A4YSv3yYAg" sourceItem="_qxShMDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxVkgDn4Eeq2A4YSv3yYAg" targetItem="_rGac5zn4Eeq2A4YSv3yYAg" sourceItem="_qxTvUDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxbrITn4Eeq2A4YSv3yYAg" targetItem="_q1OmADn4Eeq2A4YSv3yYAg" sourceItem="_qxbrIDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qxcSMDn4Eeq2A4YSv3yYAg" source="_q1OmADn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPVmQTn4Eeq2A4YSv3yYAg"/>
+    <stereotypes xmi:id="_qxsw4Tn4Eeq2A4YSv3yYAg" name="Reference">
+      <modelElement href="PolymorphicBST.uml#_pPWNUDn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qxsJ0Dn4Eeq2A4YSv3yYAg" text=""/>
+    <sourceRole xmi:id="_qxsJ0Tn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="">
+      <modelElement href="PolymorphicBST.uml#_pPVmQjn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qxwbQTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qxwbQDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qxsw4Dn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="key" navigable="true">
+      <modelElement href="PolymorphicBST.uml#_pOU5oDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qxxCUTn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_qxxCUDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qxc5QDn4Eeq2A4YSv3yYAg" source="_q1OmADn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPWNUTn4Eeq2A4YSv3yYAg"/>
+    <stereotypes xmi:id="_qxtX8Tn4Eeq2A4YSv3yYAg" name="Reference">
+      <modelElement href="PolymorphicBST.uml#_pPW0YDn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qxsw4jn4Eeq2A4YSv3yYAg" text=""/>
+    <sourceRole xmi:id="_qxsw4zn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="">
+      <modelElement href="PolymorphicBST.uml#_pPWNUjn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qxyQcTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qxyQcDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qxtX8Dn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="value" navigable="true">
+      <modelElement href="PolymorphicBST.uml#_pOVgsTn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qxzekTn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_qxzekDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxmDMTn4Eeq2A4YSv3yYAg" targetItem="_q1PNRTn4Eeq2A4YSv3yYAg" sourceItem="_qxmDMDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxofcTn4Eeq2A4YSv3yYAg" targetItem="_q1PNVzn4Eeq2A4YSv3yYAg" sourceItem="_qxofcDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_qxqUoDn4Eeq2A4YSv3yYAg" targetItem="_q1PNazn4Eeq2A4YSv3yYAg" sourceItem="_qxptkDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q7bUoDn4Eeq2A4YSv3yYAg" targetItem="_q8PM8Dn4Eeq2A4YSv3yYAg" sourceItem="_q5QKYDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_q7_8YDn4Eeq2A4YSv3yYAg" sourceAnchor="192.0,0.0" targetAnchor="119.0,82.0" dashed="true" superClass="_rEgYIDn4Eeq2A4YSv3yYAg" subClass="_q8PM8Dn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pL_-YDn4Eeq2A4YSv3yYAg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q8JGUDn4Eeq2A4YSv3yYAg" targetItem="_rEgYIDn4Eeq2A4YSv3yYAg" sourceItem="_q8IfQDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_q8NXwDn4Eeq2A4YSv3yYAg" source="_q8PM8Dn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPTKADn4Eeq2A4YSv3yYAg"/>
+    <stereotypes xmi:id="_q8NXwTn4Eeq2A4YSv3yYAg" name="Reference">
+      <modelElement href="PolymorphicBST.uml#_pPTxEDn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_q8NXwjn4Eeq2A4YSv3yYAg" text=""/>
+    <sourceRole xmi:id="_q8NXwzn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="">
+      <modelElement href="PolymorphicBST.uml#_pPTKATn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q8NXxDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q8NXxTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_q8NXxjn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="keys" navigable="true">
+      <modelElement href="PolymorphicBST.uml#_pOOzADn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q8NXxzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q8NXyDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_q8Ol4Dn4Eeq2A4YSv3yYAg" source="_q8PM8Dn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPTxETn4Eeq2A4YSv3yYAg"/>
+    <stereotypes xmi:id="_q8Ol4Tn4Eeq2A4YSv3yYAg" name="Reference">
+      <modelElement href="PolymorphicBST.uml#_pPUYIDn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_q8Ol4jn4Eeq2A4YSv3yYAg" text=""/>
+    <sourceRole xmi:id="_q8Ol4zn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="">
+      <modelElement href="PolymorphicBST.uml#_pPTxEjn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q8Ol5Dn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q8Ol5Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_q8Ol5jn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="values" navigable="true">
+      <modelElement href="PolymorphicBST.uml#_pOQBIDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q8Ol5zn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q8Ol6Dn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_q9X1YDn4Eeq2A4YSv3yYAg" sourceAnchor="0.0,147.0" targetAnchor="328.0,136.0" target="_rGacoDn4Eeq2A4YSv3yYAg" source="_q_Z1sDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPU_MDn4Eeq2A4YSv3yYAg"/>
+    <stereotypes xmi:id="_q--X4zn4Eeq2A4YSv3yYAg" name="Reference">
+      <modelElement href="PolymorphicBST.uml#_pPVmQDn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_q--X4Dn4Eeq2A4YSv3yYAg" text="">
+      <visualProperties xmi:id="_r-8AEDn4Eeq2A4YSv3yYAg" position="-9.0,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_q--X4Tn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="">
+      <modelElement href="PolymorphicBST.uml#_pPU_MTn4Eeq2A4YSv3yYAg"/>
+      <visualProperties xmi:id="_r-6K4Dn4Eeq2A4YSv3yYAg" position="-19.0,5.5"/>
+      <visibility xmi:id="_q_WLUTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_WLUDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_q--X4jn4Eeq2A4YSv3yYAg" aggregationKind="NONE" name="root" navigable="true">
+      <modelElement href="PolymorphicBST.uml#_pORPQDn4Eeq2A4YSv3yYAg"/>
+      <visualProperties xmi:id="_r-8AETn4Eeq2A4YSv3yYAg" position="5.0,-46.499999999999915"/>
+      <visibility xmi:id="_q_WLUzn4Eeq2A4YSv3yYAg" label="~"/>
+      <cardinality xmi:id="_q_WLUjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q-6GcDn4Eeq2A4YSv3yYAg" targetItem="_q_Z1sDn4Eeq2A4YSv3yYAg" sourceItem="_q-UQkDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_EegDn4Eeq2A4YSv3yYAg" targetItem="_q_Z1ujn4Eeq2A4YSv3yYAg" sourceItem="_q---8Dn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_GTsDn4Eeq2A4YSv3yYAg" targetItem="_q_Z1vzn4Eeq2A4YSv3yYAg" sourceItem="_q_FFkDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_G6wTn4Eeq2A4YSv3yYAg" targetItem="_q_Z1xDn4Eeq2A4YSv3yYAg" sourceItem="_q_G6wDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_II4Dn4Eeq2A4YSv3yYAg" targetItem="_q_Z1yTn4Eeq2A4YSv3yYAg" sourceItem="_q_Hh0Dn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_Iv8Tn4Eeq2A4YSv3yYAg" targetItem="_q_Z1zjn4Eeq2A4YSv3yYAg" sourceItem="_q_Iv8Dn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_J-EDn4Eeq2A4YSv3yYAg" targetItem="_q_Z10zn4Eeq2A4YSv3yYAg" sourceItem="_q_JXADn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_LMMDn4Eeq2A4YSv3yYAg" targetItem="_q_Z11jn4Eeq2A4YSv3yYAg" sourceItem="_q_KlIDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_LzQDn4Eeq2A4YSv3yYAg" targetItem="_q_Z12zn4Eeq2A4YSv3yYAg" sourceItem="_q_LMMTn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_PdoDn4Eeq2A4YSv3yYAg" targetItem="_q_Z14Tn4Eeq2A4YSv3yYAg" sourceItem="_q_O2kDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_QrwDn4Eeq2A4YSv3yYAg" targetItem="_q_Z15zn4Eeq2A4YSv3yYAg" sourceItem="_q_QEsDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_R54Dn4Eeq2A4YSv3yYAg" targetItem="_q_Z17zn4Eeq2A4YSv3yYAg" sourceItem="_q_RS0Dn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_TvEDn4Eeq2A4YSv3yYAg" targetItem="_q_Z1-Dn4Eeq2A4YSv3yYAg" sourceItem="_q_Sg8Dn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q_U9MTn4Eeq2A4YSv3yYAg" targetItem="_q_Z1_jn4Eeq2A4YSv3yYAg" sourceItem="_q_U9MDn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rLUx0Tn4Eeq2A4YSv3yYAg" targetItem="_rLV_8Dn4Eeq2A4YSv3yYAg" sourceItem="_rLUx0Dn4Eeq2A4YSv3yYAg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_rQygoDn4Eeq2A4YSv3yYAg" targetItem="_rQzuwDn4Eeq2A4YSv3yYAg" sourceItem="_rQwEYDn4Eeq2A4YSv3yYAg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qwlWkDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qwnLwDn4Eeq2A4YSv3yYAg" text="This class is used to represent the empty search tree: a search tree that&#xA;contains no entries.&#xA;&#xA;This class is a singleton class: since all empty search trees are the same,&#xA;there is no need for multiple instances of this class. Instead, a single&#xA;instance of the class is created and made available through the static field&#xA;SINGLETON.&#xA;&#xA;The constructor is private, preventing other code from mistakenly creating&#xA;additional instances of the class.&#xA; *" item="_qx1TwDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPCEQDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qwuggDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qwvHkDn4Eeq2A4YSv3yYAg" text="Constructor is private to enforce it being a singleton&#xA;&#x9; *" item="_qx160Tn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPCEQTn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxCCgDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxCpkDn4Eeq2A4YSv3yYAg" text="This interface describes the interface for both empty and non-empty search&#xA;trees." item="_rGacoDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPD5dDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxGT8Dn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxG7ADn4Eeq2A4YSv3yYAg" text="Return the maximum key in the subtree&#xA;&#x9; * &#xA;&#x9; * @return maximum key&#xA;&#x9; * @throws TreeIsEmptyException if the tree is empty" item="_rGacpDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPEggTn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxHiEDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxHiETn4Eeq2A4YSv3yYAg" text="Return the minimum key in the subtree&#xA;&#x9; * &#xA;&#x9; * @return minimum key&#xA;&#x9; * @throws TreeIsEmptyException if the tree is empty" item="_rGacqTn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPEggjn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxIJIDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxIwMDn4Eeq2A4YSv3yYAg" text="Return number of keys that are bound in this tree.&#xA;&#x9; * &#xA;&#x9; * @return number of keys that are bound in this tree." item="_rGacrjn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPEggzn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxJXQDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxJ-UDn4Eeq2A4YSv3yYAg" text="Returns the height (maximum level) in the tree.  A tree with only one&#xA;&#x9; * entry has a height of 1.&#xA;&#x9; * @return height of the tree." item="_rGacszn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPEghjn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxKlYDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxKlYTn4Eeq2A4YSv3yYAg" text="Performs the specified task on the tree using an inorder traversal.&#xA;&#x9; * @param p object defining task" item="_rGacuDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPEghzn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxLMcDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxLzgDn4Eeq2A4YSv3yYAg" text="Performs the specified task on the tree using a right tree, root, left tree&#xA;&#x9; * traversal.&#xA;&#x9; * @param p object defining task" item="_rGacvjn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPEgiDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxMakDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxNosDn4Eeq2A4YSv3yYAg" text="Find the value that this key is bound to in this tree.&#xA;&#x9; * &#xA;&#x9; * @param key --&#xA;&#x9; *            Key to search for&#xA;&#x9; * @return -- value associated with the key by this Tree, or null if the key&#xA;&#x9; *         does not have an association in this tree." item="_rGacxDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPD5dTn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxO20Dn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxO20Tn4Eeq2A4YSv3yYAg" text="Insert/update the Tree with a new key:value pair. If the key already&#xA;&#x9; * exists in the tree, update the value associated with it. If the key&#xA;&#x9; * doesn't exist, insert the new key value pair.&#xA;&#x9; * &#xA;&#x9; * This method returns a reference to an Tree that represents the updated&#xA;&#x9; * value. In many, but not all cases, the method may just return a&#xA;&#x9; * reference to this. This method is annotated @CheckReturnValue because&#xA;&#x9; * you have to pay attention to the return value; if you simply invoke insert on&#xA;&#x9; * a Tree and ignore the return value, your code is almost certainly wrong. &#xA;&#x9; * &#xA;&#x9; * @param key --&#xA;&#x9; *            Key&#xA;&#x9; * @param value --&#xA;&#x9; *            Value that the key maps to&#xA;&#x9; * @return -- updated tree" item="_rGaczDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPD5djn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxRTEDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxRTETn4Eeq2A4YSv3yYAg" text="Delete any binding the key has in this tree. If the key isn't bound, this&#xA;&#x9; * is a no-op&#xA;&#x9; * &#xA;&#x9; * This method returns a reference to an Tree that represents the updated&#xA;&#x9; * value. In many, but not all cases, the method may just return a&#xA;&#x9; * reference to this. This method is annotated @CheckReturnValue because&#xA;&#x9; * you have to pay attention to the return value; if you simply invoke delete on&#xA;&#x9; * a Tree and ignore the return value, your code is almost certainly wrong. &#xA;&#x9; * &#xA;&#x9; * @param key --&#xA;&#x9; *            Key&#xA;&#x9; * @return -- updated tree" item="_rGac2Dn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPEggDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxShMDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxShMTn4Eeq2A4YSv3yYAg" text="Add all keys bound in this tree to the collection c.&#xA;&#x9; * The elements can be added in any order." item="_rGac4Tn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPEghDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxTvUDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxVkgDn4Eeq2A4YSv3yYAg" text="Returns a Tree containing all entries between fromKey and toKey, inclusive.&#xA;&#x9; * It may not modify the original tree (a common mistake while implementing this method).&#xA;&#x9; * &#xA;&#x9; * @param fromKey - Lower bound value for keys in subtree&#xA;&#x9; * @param toKey - Upper bound value for keys in subtree&#xA;&#x9; * @return Tree containing all entries between fromKey and toKey, inclusive" item="_rGac5zn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPEghTn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxbrIDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxbrITn4Eeq2A4YSv3yYAg" text="This class represents a non-empty search tree. An instance of this class&#xA;should contain:&#xA;&lt;ul>&#xA;&lt;li>A key&#xA;&lt;li>A value (that the key maps to)&#xA;&lt;li>A reference to a left Tree that contains key:value pairs such that the&#xA;keys in the left Tree are less than the key stored in this tree node.&#xA;&lt;li>A reference to a right Tree that contains key:value pairs such that the&#xA;keys in the right Tree are greater than the key stored in this tree node.&#xA;&lt;/ul>&#xA; *" item="_q1OmADn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPFHkDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxmDMDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxmDMTn4Eeq2A4YSv3yYAg" text="Only constructor we need.&#xA;&#x9; * @param key&#xA;&#x9; * @param value&#xA;&#x9; * @param left&#xA;&#x9; * @param right" item="_q1PNRTn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPG8wDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxofcDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxofcTn4Eeq2A4YSv3yYAg" text="Returns the value associated with the key by this Tree,&#xA;&#x9; * returns null if nothing matches" item="_q1PNVzn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPG8wTn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_qxptkDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_qxqUoDn4Eeq2A4YSv3yYAg" text="Deletes any binding the key has in this tree Returns reference to updated&#xA;&#x9; * tree or This&#xA;&#x9; *" item="_q1PNazn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPHj0Dn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q5QKYDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q7bUoDn4Eeq2A4YSv3yYAg" text="This task places key/values in two arrays in the order&#xA;in which the key/values are seen during the traversal.  If no keys/values&#xA;are found the ArrayList will be empty (constructor creates two&#xA;empty ArrayLists).  &#xA; *&#xA;@param &lt;K>&#xA;@param &lt;V>" item="_q8PM8Dn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPCrUTn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q8IfQDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q8JGUDn4Eeq2A4YSv3yYAg" text="When we perform a traversal of a tree, we call the&#xA;performTask method to process each key,value pair in&#xA;the tree.  Classes implementing this interface, allow&#xA;us to collect keys, print values, etc.&#xA;@author cmsc132&#xA; *&#xA;@param &lt;K>&#xA;@param &lt;V>" item="_rEgYIDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPD5czn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q-UQkDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q-6GcDn4Eeq2A4YSv3yYAg" text="This class represents the polymorphic tree. &#xA;The implementation uses classes implementing the Tree interface to represent the&#xA;actual search tree. Some methods of this class has been implemented for you.&#xA; *" item="_q_Z1sDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPCrUjn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q---8Dn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_EegDn4Eeq2A4YSv3yYAg" text="Return number of keys bound by this map&#xA;&#x9; * &#xA;&#x9; * @return number of keys bound by this map" item="_q_Z1ujn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPDSYDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_FFkDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_GTsDn4Eeq2A4YSv3yYAg" text="Return a Set of all the keys in the map&#xA;&#x9; * &#xA;&#x9; * @return Set of all the keys in the map" item="_q_Z1vzn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPDSYjn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_G6wDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_G6wTn4Eeq2A4YSv3yYAg" text="Return the minimum key value in the map&#xA;&#x9; * &#xA;&#x9; * @return the minimum key value in the map&#xA;&#x9; * @throws NoSuchElementException if the map is empty" item="_q_Z1xDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPDSYzn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_Hh0Dn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_II4Dn4Eeq2A4YSv3yYAg" text="Return the maximum key value in the map&#xA;&#x9; * &#xA;&#x9; * @return the maximum key value in the map&#xA;&#x9; * @throws NoSuchElementException if the map is empty" item="_q_Z1yTn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPDSZDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_Iv8Dn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_Iv8Tn4Eeq2A4YSv3yYAg" text="Return a string representation of the tree.  You don't need&#xA;&#x9; * to implement this method." item="_q_Z1zjn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPDSZTn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_JXADn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_J-EDn4Eeq2A4YSv3yYAg" text="Clears the tree by setting the root to EmptyTree" item="_q_Z10zn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPDSZzn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_KlIDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_LMMDn4Eeq2A4YSv3yYAg" text="Returns height of the tree.&#xA;&#x9; * @return height of the tree." item="_q_Z11jn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPD5cDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_LMMTn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_LzQDn4Eeq2A4YSv3yYAg" text="Performs an inorder traversal applying the task to eat tree key,value pair.&#xA;&#x9; * @param p" item="_q_Z12zn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPD5cTn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_O2kDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_PdoDn4Eeq2A4YSv3yYAg" text="Performs the specified task on the tree using a right tree, root, left tree&#xA;&#x9; * traversal.&#xA;&#x9; * @param p object defining task" item="_q_Z14Tn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPD5cjn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_QEsDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_QrwDn4Eeq2A4YSv3yYAg" text="Find the value the key is mapped to&#xA;&#x9; * &#xA;&#x9; * @param k -&#xA;&#x9; *            Search key&#xA;&#x9; * @return value k is mapped to, or null if there is no mapping for the key" item="_q_Z15zn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPCrUzn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_RS0Dn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_R54Dn4Eeq2A4YSv3yYAg" text="Update the mapping for the key&#xA;&#x9; * &#xA;&#x9; * @param k -&#xA;&#x9; *            key value&#xA;&#x9; * @param v -&#xA;&#x9; *            value the key should be bound to" item="_q_Z17zn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPCrVDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_Sg8Dn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_TvEDn4Eeq2A4YSv3yYAg" text="Remove any existing binding for a key&#xA;&#x9; * &#xA;&#x9; * @param k -&#xA;&#x9; *            key to be removed from the map" item="_q_Z1-Dn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPDSYTn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q_U9MDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_q_U9MTn4Eeq2A4YSv3yYAg" text="Return subset of TreeMap between the values fromKey-toKey.  It will&#xA;&#x9; * include fromKey and toKey if they are found in the original map.&#xA;&#x9; * The values for fromKey and toKey do not actually need to be in the map.&#xA;&#x9; * You can assume than fromKey is less than or equal to toKey.&#xA;&#x9; * &#xA;&#x9; * @return TreeMap consisting of subset of SearchTreeMap" item="_q_Z1_jn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPDSZjn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rLUx0Dn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_rLUx0Tn4Eeq2A4YSv3yYAg" text="This is a checked exception, used internally by SearchTree nodes, to signal that a tree&#xA;has no minimum or maximum element. &#xA; *" item="_rLV_8Dn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPCrUDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_rQwEYDn4Eeq2A4YSv3yYAg" sourceConnectionVisual="_rQygoDn4Eeq2A4YSv3yYAg" text="Provides examples on how to get timing information. &#xA;Use this example as a starting point while developing your own&#xA;timing experiments (those associated with the report).  Your&#xA;report should be in the file performanceReport.docx.&#xA;@author cmsc132&#xA; *" item="_rQzuwDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pPBdMDn4Eeq2A4YSv3yYAg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qx1TwDn4Eeq2A4YSv3yYAg" comments="_qwlWkDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qwnLwDn4Eeq2A4YSv3yYAg" name="EmptyTree" associationsIn="_qwhFIDn4Eeq2A4YSv3yYAg" associationsOut="_qwhFIDn4Eeq2A4YSv3yYAg" generalizations="_qxD3sDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pA3scDn4Eeq2A4YSv3yYAg"/>
+    <visualProperties xmi:id="_qx1TwTn4Eeq2A4YSv3yYAg" position="642.0,368.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_qx1Twjn4Eeq2A4YSv3yYAg" name="Generics">
+      <modelElement href="PolymorphicBST.uml#_pA794Dn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <visibility xmi:id="_qx1Twzn4Eeq2A4YSv3yYAg" label="+"/>
+    <attributes xmi:id="_qx1TxDn4Eeq2A4YSv3yYAg" defaultValue="new EmptyTree()" name="SINGLETON" staticAttribute="true">
+      <modelElement href="PolymorphicBST.uml#_pOKhkDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_qx1TxTn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pOM90Dn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_qx1Txjn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_qx1Txzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <type xmi:id="_qx1TyDn4Eeq2A4YSv3yYAg" name="EmptyTree">
+        <modelElement href="PolymorphicBST.uml#_pA3scDn4Eeq2A4YSv3yYAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qx1TyTn4Eeq2A4YSv3yYAg" name="getInstance" staticOperation="true">
+      <modelElement href="PolymorphicBST.uml#_pA-aIDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_qx1Tyjn4Eeq2A4YSv3yYAg" name="TypeParameterDeclaration">
+        <modelElement href="PolymorphicBST.uml#_pA_oQDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qx1Tyzn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pBBdcDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qx1TzDn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pBCEgDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_qx1TzTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx1Tzjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qx1Tzzn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pLzKEDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_qx160Dn4Eeq2A4YSv3yYAg" name="EmptyTree">
+          <modelElement href="PolymorphicBST.uml#_pA3scDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qx160Tn4Eeq2A4YSv3yYAg" comments="_qwuggDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qwvHkDn4Eeq2A4YSv3yYAg" name="EmptyTree">
+      <modelElement href="PolymorphicBST.uml#_pBD5sDn4Eeq2A4YSv3yYAg"/>
+      <keywords xmi:id="_qx160jn4Eeq2A4YSv3yYAg" keyword="create"/>
+      <visibility xmi:id="_qx160zn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_qx161Dn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qx161Tn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pBFH0Tn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_qx161jn4Eeq2A4YSv3yYAg" name="EmptyTree">
+          <modelElement href="PolymorphicBST.uml#_pA3scDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qx161zn4Eeq2A4YSv3yYAg" name="max">
+      <modelElement href="PolymorphicBST.uml#_pBILIDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qx162Dn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx162Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qx162jn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pM6kYDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_qx162zn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qx163Dn4Eeq2A4YSv3yYAg" name="min">
+      <modelElement href="PolymorphicBST.uml#_pBJZQDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qx163Tn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx163jn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qx163zn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pM7LcDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_qx164Dn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qx164Tn4Eeq2A4YSv3yYAg" name="size">
+      <modelElement href="PolymorphicBST.uml#_pBKnYDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qx164jn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx164zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qx165Dn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pBLOcDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_qx165Tn4Eeq2A4YSv3yYAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qx165jn4Eeq2A4YSv3yYAg" name="height">
+      <modelElement href="PolymorphicBST.uml#_pBMckDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qx165zn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx166Dn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qx166Tn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pBNDoDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_qx166jn4Eeq2A4YSv3yYAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qx166zn4Eeq2A4YSv3yYAg" name="inorderTraversal">
+      <modelElement href="PolymorphicBST.uml#_pL4CkDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qx167Dn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx167Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qx167jn4Eeq2A4YSv3yYAg" name="p">
+        <modelElement href="PolymorphicBST.uml#_pL4CkTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_qx167zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_qx168Dn4Eeq2A4YSv3yYAg" name="TraversalTask">
+          <modelElement href="PolymorphicBST.uml#_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qx168Tn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal">
+      <modelElement href="PolymorphicBST.uml#_pL7F4Tn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qx168jn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx168zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qx169Dn4Eeq2A4YSv3yYAg" name="p">
+        <modelElement href="PolymorphicBST.uml#_pL7s8Dn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_qx169Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_qx169jn4Eeq2A4YSv3yYAg" name="TraversalTask">
+          <modelElement href="PolymorphicBST.uml#_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qx169zn4Eeq2A4YSv3yYAg" name="search">
+      <modelElement href="PolymorphicBST.uml#_pMyokTn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qx16-Dn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx16-Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qx16-jn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pMzPoDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_qx16-zn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qx16_Dn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pMyokjn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_qx16_Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_qx16_jn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qx16_zn4Eeq2A4YSv3yYAg" name="insert">
+      <modelElement href="PolymorphicBST.uml#_pM1r4Dn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_qx17ADn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pM26ADn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_qx17ATn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx17Ajn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qx17Azn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pM26ATn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_qx17BDn4Eeq2A4YSv3yYAg" name="NonEmptyTree">
+          <modelElement href="PolymorphicBST.uml#_pDF6ADn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qx17BTn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pM1r4Tn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_qx17Bjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_qx17Bzn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qx17CDn4Eeq2A4YSv3yYAg" name="value">
+        <modelElement href="PolymorphicBST.uml#_pM1r4jn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_qx17CTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_qx17Cjn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qx17Czn4Eeq2A4YSv3yYAg" name="delete">
+      <modelElement href="PolymorphicBST.uml#_pM4IIDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_qx17DDn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pM59UDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_qx17DTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx17Djn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qx17Dzn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pM59UTn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_qx17EDn4Eeq2A4YSv3yYAg" name="Tree">
+          <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qx17ETn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pM4vMDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_qx17Ejn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_qx17Ezn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qx17FDn4Eeq2A4YSv3yYAg" name="addKeysToCollection">
+      <modelElement href="PolymorphicBST.uml#_pM7ygDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_qx17FTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx17Fjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qx17Fzn4Eeq2A4YSv3yYAg" name="c">
+        <modelElement href="PolymorphicBST.uml#_pM8ZkDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_qx17GDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_qx17GTn4Eeq2A4YSv3yYAg" name="Collection">
+          <modelElement href="PolymorphicBST.uml#_pLscYDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qx17Gjn4Eeq2A4YSv3yYAg" name="subTree">
+      <modelElement href="PolymorphicBST.uml#_pM_c4Dn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_qx17Gzn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pNB5IDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_qx17HDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_qx17HTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qx17Hjn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNB5ITn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_qx17Hzn4Eeq2A4YSv3yYAg" name="Tree">
+          <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qx17IDn4Eeq2A4YSv3yYAg" name="fromKey">
+        <modelElement href="PolymorphicBST.uml#_pNArADn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_qx17ITn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_qx17Ijn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qx17Izn4Eeq2A4YSv3yYAg" name="toKey">
+        <modelElement href="PolymorphicBST.uml#_pNArATn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_qx17JDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_qx17JTn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_q1OmADn4Eeq2A4YSv3yYAg" comments="_qxbrIDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxbrITn4Eeq2A4YSv3yYAg" name="NonEmptyTree" associationsOut="_qxFF0Dn4Eeq2A4YSv3yYAg _qxFs4Dn4Eeq2A4YSv3yYAg _qxcSMDn4Eeq2A4YSv3yYAg _qxc5QDn4Eeq2A4YSv3yYAg" generalizations="_qxEewDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pDF6ADn4Eeq2A4YSv3yYAg"/>
+    <visualProperties xmi:id="_q1PNEDn4Eeq2A4YSv3yYAg" position="132.0,381.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_q1PNETn4Eeq2A4YSv3yYAg" name="Generics">
+      <modelElement href="PolymorphicBST.uml#_pDHvMDn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <visibility xmi:id="_q1PNEjn4Eeq2A4YSv3yYAg" label="+"/>
+    <attributes xmi:id="_q1PNEzn4Eeq2A4YSv3yYAg" name="key">
+      <modelElement href="PolymorphicBST.uml#_pOU5oDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_q1PNFDn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pOVgsDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_q1PNFTn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_q1PNFjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <type xmi:id="_q1PNFzn4Eeq2A4YSv3yYAg" name="K">
+        <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q1PNGDn4Eeq2A4YSv3yYAg" name="value">
+      <modelElement href="PolymorphicBST.uml#_pOVgsTn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_q1PNGTn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pOWHwDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_q1PNGjn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_q1PNGzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <type xmi:id="_q1PNHDn4Eeq2A4YSv3yYAg" name="V">
+        <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q1PNHTn4Eeq2A4YSv3yYAg" name="left">
+      <modelElement href="PolymorphicBST.uml#_pOWu0Dn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q1PNHjn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_q1PNHzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <type xmi:id="_q1PNIDn4Eeq2A4YSv3yYAg" name="Tree">
+        <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q1PNITn4Eeq2A4YSv3yYAg" name="right">
+      <modelElement href="PolymorphicBST.uml#_pPFHkTn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q1PNIjn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_q1PNIzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <type xmi:id="_q1PNJDn4Eeq2A4YSv3yYAg" name="Tree">
+        <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_q1PNJTn4Eeq2A4YSv3yYAg" name="max">
+      <modelElement href="PolymorphicBST.uml#_pDKLcDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q1PNJjn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNJzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q1PNKDn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pODM0Dn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q1PNKTn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q1PNKjn4Eeq2A4YSv3yYAg" name="min">
+      <modelElement href="PolymorphicBST.uml#_pDN10Dn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q1PNKzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNLDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q1PNLTn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pODz4Dn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q1PNLjn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q1PNLzn4Eeq2A4YSv3yYAg" name="size">
+      <modelElement href="PolymorphicBST.uml#_pDPD8Dn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q1PNMDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNMTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q1PNMjn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pDPrADn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q1PNMzn4Eeq2A4YSv3yYAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q1PNNDn4Eeq2A4YSv3yYAg" name="height">
+      <modelElement href="PolymorphicBST.uml#_pDQSEDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q1PNNTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNNjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q1PNNzn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pDQSETn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q1PNODn4Eeq2A4YSv3yYAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q1PNOTn4Eeq2A4YSv3yYAg" name="inorderTraversal">
+      <modelElement href="PolymorphicBST.uml#_pMcDQDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q1PNOjn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNOzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q1PNPDn4Eeq2A4YSv3yYAg" name="p">
+        <modelElement href="PolymorphicBST.uml#_pMcqUDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNPTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNPjn4Eeq2A4YSv3yYAg" name="TraversalTask">
+          <modelElement href="PolymorphicBST.uml#_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q1PNPzn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal">
+      <modelElement href="PolymorphicBST.uml#_pMfGkDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q1PNQDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNQTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q1PNQjn4Eeq2A4YSv3yYAg" name="p">
+        <modelElement href="PolymorphicBST.uml#_pMfGkTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNQzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNRDn4Eeq2A4YSv3yYAg" name="TraversalTask">
+          <modelElement href="PolymorphicBST.uml#_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q1PNRTn4Eeq2A4YSv3yYAg" comments="_qxmDMDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxmDMTn4Eeq2A4YSv3yYAg" name="NonEmptyTree">
+      <modelElement href="PolymorphicBST.uml#_pN0jUDn4Eeq2A4YSv3yYAg"/>
+      <keywords xmi:id="_q1PNRjn4Eeq2A4YSv3yYAg" keyword="create"/>
+      <visibility xmi:id="_q1PNRzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNSDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q1PNSTn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pN1xczn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q1PNSjn4Eeq2A4YSv3yYAg" name="NonEmptyTree">
+          <modelElement href="PolymorphicBST.uml#_pDF6ADn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q1PNSzn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pN1KYDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNTDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNTTn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q1PNTjn4Eeq2A4YSv3yYAg" name="value">
+        <modelElement href="PolymorphicBST.uml#_pN1KYTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNTzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNUDn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q1PNUTn4Eeq2A4YSv3yYAg" name="left">
+        <modelElement href="PolymorphicBST.uml#_pN1KYjn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNUjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNUzn4Eeq2A4YSv3yYAg" name="Tree">
+          <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q1PNVDn4Eeq2A4YSv3yYAg" name="right">
+        <modelElement href="PolymorphicBST.uml#_pN1xcDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNVTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNVjn4Eeq2A4YSv3yYAg" name="Tree">
+          <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q1PNVzn4Eeq2A4YSv3yYAg" comments="_qxofcDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxofcTn4Eeq2A4YSv3yYAg" name="search">
+      <modelElement href="PolymorphicBST.uml#_pN7RADn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q1PNWDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNWTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q1PNWjn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pN8fIDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q1PNWzn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q1PNXDn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pN7RATn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNXTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNXjn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q1PNXzn4Eeq2A4YSv3yYAg" name="insert">
+      <modelElement href="PolymorphicBST.uml#_pN9GMDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_q1PNYDn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pOAJgDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_q1PNYTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNYjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q1PNYzn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pOAJgTn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q1PNZDn4Eeq2A4YSv3yYAg" name="NonEmptyTree">
+          <modelElement href="PolymorphicBST.uml#_pDF6ADn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q1PNZTn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pN9GMTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNZjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNZzn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q1PNaDn4Eeq2A4YSv3yYAg" name="value">
+        <modelElement href="PolymorphicBST.uml#_pN9GMjn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNaTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNajn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q1PNazn4Eeq2A4YSv3yYAg" comments="_qxptkDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxqUoDn4Eeq2A4YSv3yYAg" name="delete">
+      <modelElement href="PolymorphicBST.uml#_pOBXoDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_q1PNbDn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pOB-sDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_q1PNbTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNbjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q1PNbzn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pOClwDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q1PNcDn4Eeq2A4YSv3yYAg" name="Tree">
+          <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q1PNcTn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pOBXoTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNcjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNczn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q1PNdDn4Eeq2A4YSv3yYAg" name="addKeysToCollection">
+      <modelElement href="PolymorphicBST.uml#_pOEa8Dn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q1PNdTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNdjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q1PNdzn4Eeq2A4YSv3yYAg" name="c">
+        <modelElement href="PolymorphicBST.uml#_pOEa8Tn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNeDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNeTn4Eeq2A4YSv3yYAg" name="Collection">
+          <modelElement href="PolymorphicBST.uml#_pLscYDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q1PNejn4Eeq2A4YSv3yYAg" name="subTree">
+      <modelElement href="PolymorphicBST.uml#_pOGQIDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_q1PNezn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pOG3MDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_q1PNfDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q1PNfTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q1PNfjn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pOG3MTn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q1PNfzn4Eeq2A4YSv3yYAg" name="Tree">
+          <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q1PNgDn4Eeq2A4YSv3yYAg" name="fromKey">
+        <modelElement href="PolymorphicBST.uml#_pOGQITn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNgTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNgjn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q1PNgzn4Eeq2A4YSv3yYAg" name="toKey">
+        <modelElement href="PolymorphicBST.uml#_pOGQIjn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q1PNhDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q1PNhTn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_q8PM8Dn4Eeq2A4YSv3yYAg" comments="_q5QKYDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q7bUoDn4Eeq2A4YSv3yYAg" name="PlaceKeysValuesInArrayLists" associationsOut="_q8NXwDn4Eeq2A4YSv3yYAg _q8Ol4Dn4Eeq2A4YSv3yYAg" generalizations="_q7_8YDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pB0usDn4Eeq2A4YSv3yYAg"/>
+    <visualProperties xmi:id="_q8PM8Tn4Eeq2A4YSv3yYAg" position="10.0,931.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_q8PM8jn4Eeq2A4YSv3yYAg" name="Generics">
+      <modelElement href="PolymorphicBST.uml#_pB2j4Dn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <visibility xmi:id="_q8PM8zn4Eeq2A4YSv3yYAg" label="+"/>
+    <attributes xmi:id="_q8PM9Dn4Eeq2A4YSv3yYAg" name="keys">
+      <modelElement href="PolymorphicBST.uml#_pOOzADn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_q8PM9Tn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pOPaEDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_q8PM9jn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q8PM9zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <type xmi:id="_q8PM-Dn4Eeq2A4YSv3yYAg" name="ArrayList">
+        <modelElement href="PolymorphicBST.uml#_pNE8cDn4Eeq2A4YSv3yYAg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q8PM-Tn4Eeq2A4YSv3yYAg" name="values">
+      <modelElement href="PolymorphicBST.uml#_pOQBIDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_q8PM-jn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pOQoMDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_q8PM-zn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q8PM_Dn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <type xmi:id="_q8PM_Tn4Eeq2A4YSv3yYAg" name="ArrayList">
+        <modelElement href="PolymorphicBST.uml#_pNE8cDn4Eeq2A4YSv3yYAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_q8PM_jn4Eeq2A4YSv3yYAg" name="PlaceKeysValuesInArrayLists">
+      <modelElement href="PolymorphicBST.uml#_pB4ZEDn4Eeq2A4YSv3yYAg"/>
+      <keywords xmi:id="_q8PM_zn4Eeq2A4YSv3yYAg" keyword="create"/>
+      <visibility xmi:id="_q8PNADn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q8PNATn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q8PNAjn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pB5AIjn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q8PNAzn4Eeq2A4YSv3yYAg" name="PlaceKeysValuesInArrayLists">
+          <modelElement href="PolymorphicBST.uml#_pB0usDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q8PNBDn4Eeq2A4YSv3yYAg" name="performTask">
+      <modelElement href="PolymorphicBST.uml#_pNGKkDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q8PNBTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q8PNBjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q8PNBzn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pNGKkTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q8PNCDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q8PNCTn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q8PNCjn4Eeq2A4YSv3yYAg" name="value">
+        <modelElement href="PolymorphicBST.uml#_pNGxoDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q8PNCzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q8PNDDn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_q_Z1sDn4Eeq2A4YSv3yYAg" comments="_q-UQkDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q-6GcDn4Eeq2A4YSv3yYAg" name="PolymorphicBST" associationsOut="_q9X1YDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pB-fsDn4Eeq2A4YSv3yYAg"/>
+    <visualProperties xmi:id="_q_Z1sTn4Eeq2A4YSv3yYAg" position="755.0,31.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_q_Z1sjn4Eeq2A4YSv3yYAg" name="Generics">
+      <modelElement href="PolymorphicBST.uml#_pCAU4Dn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <visibility xmi:id="_q_Z1szn4Eeq2A4YSv3yYAg" label="+"/>
+    <attributes xmi:id="_q_Z1tDn4Eeq2A4YSv3yYAg" defaultValue="EmptyTree.getInstance()" name="root">
+      <modelElement href="PolymorphicBST.uml#_pORPQDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_q_Z1tTn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pOTEcDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_q_Z1tjn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pOUSkDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_q_Z1tzn4Eeq2A4YSv3yYAg" label="~"/>
+      <cardinality xmi:id="_q_Z1uDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <type xmi:id="_q_Z1uTn4Eeq2A4YSv3yYAg" name="Tree">
+        <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_q_Z1ujn4Eeq2A4YSv3yYAg" comments="_q---8Dn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_EegDn4Eeq2A4YSv3yYAg" name="size">
+      <modelElement href="PolymorphicBST.uml#_pCCxIDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z1uzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z1vDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q_Z1vTn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pCDYMDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q_Z1vjn4Eeq2A4YSv3yYAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q_Z1vzn4Eeq2A4YSv3yYAg" comments="_q_FFkDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_GTsDn4Eeq2A4YSv3yYAg" name="keySet">
+      <modelElement href="PolymorphicBST.uml#_pCEmUDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z1wDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z1wTn4Eeq2A4YSv3yYAg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_q_Z1wjn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pCFNYDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q_Z1wzn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q_Z1xDn4Eeq2A4YSv3yYAg" comments="_q_G6wDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_G6wTn4Eeq2A4YSv3yYAg" name="getMin">
+      <modelElement href="PolymorphicBST.uml#_pCGbgDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z1xTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z1xjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q_Z1xzn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNjdkDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q_Z1yDn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q_Z1yTn4Eeq2A4YSv3yYAg" comments="_q_Hh0Dn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_II4Dn4Eeq2A4YSv3yYAg" name="getMax">
+      <modelElement href="PolymorphicBST.uml#_pCHCkDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z1yjn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z1yzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q_Z1zDn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNkEoDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q_Z1zTn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q_Z1zjn4Eeq2A4YSv3yYAg" comments="_q_Iv8Dn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_Iv8Tn4Eeq2A4YSv3yYAg" name="toString">
+      <modelElement href="PolymorphicBST.uml#_pCLUADn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z1zzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z10Dn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q_Z10Tn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pCL7EDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q_Z10jn4Eeq2A4YSv3yYAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q_Z10zn4Eeq2A4YSv3yYAg" comments="_q_JXADn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_J-EDn4Eeq2A4YSv3yYAg" name="clear">
+      <modelElement href="PolymorphicBST.uml#_pCNJMDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z11Dn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z11Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_q_Z11jn4Eeq2A4YSv3yYAg" comments="_q_KlIDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_LMMDn4Eeq2A4YSv3yYAg" name="height">
+      <modelElement href="PolymorphicBST.uml#_pCNwQDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z11zn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z12Dn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q_Z12Tn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pCSBsDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q_Z12jn4Eeq2A4YSv3yYAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_q_Z12zn4Eeq2A4YSv3yYAg" comments="_q_LMMTn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_LzQDn4Eeq2A4YSv3yYAg" name="inorderTraversal">
+      <modelElement href="PolymorphicBST.uml#_pMHTIDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z13Dn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z13Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q_Z13jn4Eeq2A4YSv3yYAg" name="p">
+        <modelElement href="PolymorphicBST.uml#_pMH6MDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q_Z13zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q_Z14Dn4Eeq2A4YSv3yYAg" name="TraversalTask">
+          <modelElement href="PolymorphicBST.uml#_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q_Z14Tn4Eeq2A4YSv3yYAg" comments="_q_O2kDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_PdoDn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal">
+      <modelElement href="PolymorphicBST.uml#_pMJvYDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z14jn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z14zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q_Z15Dn4Eeq2A4YSv3yYAg" name="p">
+        <modelElement href="PolymorphicBST.uml#_pMJvYTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q_Z15Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q_Z15jn4Eeq2A4YSv3yYAg" name="TraversalTask">
+          <modelElement href="PolymorphicBST.uml#_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q_Z15zn4Eeq2A4YSv3yYAg" comments="_q_QEsDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_QrwDn4Eeq2A4YSv3yYAg" name="get">
+      <modelElement href="PolymorphicBST.uml#_pNHYsDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z16Dn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z16Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q_Z16jn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNH_wDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q_Z16zn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q_Z17Dn4Eeq2A4YSv3yYAg" name="k">
+        <modelElement href="PolymorphicBST.uml#_pNHYsTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q_Z17Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q_Z17jn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q_Z17zn4Eeq2A4YSv3yYAg" comments="_q_RS0Dn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_R54Dn4Eeq2A4YSv3yYAg" name="put">
+      <modelElement href="PolymorphicBST.uml#_pNLDEDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z18Dn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z18Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q_Z18jn4Eeq2A4YSv3yYAg" name="k">
+        <modelElement href="PolymorphicBST.uml#_pNLDETn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q_Z18zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q_Z19Dn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q_Z19Tn4Eeq2A4YSv3yYAg" name="v">
+        <modelElement href="PolymorphicBST.uml#_pNLDEjn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q_Z19jn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q_Z19zn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q_Z1-Dn4Eeq2A4YSv3yYAg" comments="_q_Sg8Dn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_TvEDn4Eeq2A4YSv3yYAg" name="remove">
+      <modelElement href="PolymorphicBST.uml#_pNLqIDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_q_Z1-Tn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z1-jn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_q_Z1-zn4Eeq2A4YSv3yYAg" name="k">
+        <modelElement href="PolymorphicBST.uml#_pNLqITn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q_Z1_Dn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q_Z1_Tn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q_Z1_jn4Eeq2A4YSv3yYAg" comments="_q_U9MDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q_U9MTn4Eeq2A4YSv3yYAg" name="subMap">
+      <modelElement href="PolymorphicBST.uml#_pNkrsDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_q_Z1_zn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pNl50Dn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_q_Z2ADn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_q_Z2ATn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q_Z2Ajn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNmg4Dn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_q_Z2Azn4Eeq2A4YSv3yYAg" name="PolymorphicBST">
+          <modelElement href="PolymorphicBST.uml#_pB-fsDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q_Z2BDn4Eeq2A4YSv3yYAg" name="fromKey">
+        <modelElement href="PolymorphicBST.uml#_pNkrsTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q_Z2BTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q_Z2Bjn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q_Z2Bzn4Eeq2A4YSv3yYAg" name="toKey">
+        <modelElement href="PolymorphicBST.uml#_pNkrsjn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_q_Z2CDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_q_Z2CTn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rBNzkDn4Eeq2A4YSv3yYAg" name="PublicTests">
+    <modelElement href="PolymorphicBST.uml#_pAX9MDn4Eeq2A4YSv3yYAg"/>
+    <visualProperties xmi:id="_rBNzkTn4Eeq2A4YSv3yYAg" position="12.0,1134.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rBNzkjn4Eeq2A4YSv3yYAg" label="+"/>
+    <operations xmi:id="_rBNzkzn4Eeq2A4YSv3yYAg" name="testBasics">
+      <modelElement href="PolymorphicBST.uml#_pAZLUDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rBNzlDn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAZyYDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rBNzlTn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAc1sDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rBNzljn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rBNzlzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rBNzmDn4Eeq2A4YSv3yYAg" name="testEmptySearchTree">
+      <modelElement href="PolymorphicBST.uml#_pAeD0Dn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rBNzmTn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAfR8Dn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rBNzmjn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAf5ADn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rBNzmzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rBNznDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rBNznTn4Eeq2A4YSv3yYAg" name="testHeightInorderClear">
+      <modelElement href="PolymorphicBST.uml#_pAf5Ajn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rBNznjn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAhHIDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rBNznzn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAhuMDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rBNzoDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rBNzoTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rDAjUDn4Eeq2A4YSv3yYAg" name="StudentTests">
+    <modelElement href="PolymorphicBST.uml#_pAiVQDn4Eeq2A4YSv3yYAg"/>
+    <visualProperties xmi:id="_rDAjUTn4Eeq2A4YSv3yYAg" position="457.0,811.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rDAjUjn4Eeq2A4YSv3yYAg" label="+"/>
+    <operations xmi:id="_rDAjUzn4Eeq2A4YSv3yYAg" name="testPutandGet">
+      <modelElement href="PolymorphicBST.uml#_pAjjYDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjVDn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAkxgDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjVTn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAlYkDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjVjn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjVzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rDAjWDn4Eeq2A4YSv3yYAg" name="testHeight">
+      <modelElement href="PolymorphicBST.uml#_pAlYkjn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjWTn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAl_oDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjWjn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAmmsDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjWzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjXDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rDAjXTn4Eeq2A4YSv3yYAg" name="testRightRootLeftTraversal">
+      <modelElement href="PolymorphicBST.uml#_pAnNwDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjXjn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAob4Dn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjXzn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pApC8Dn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjYDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjYTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rDAjYjn4Eeq2A4YSv3yYAg" name="testAddtoCollection">
+      <modelElement href="PolymorphicBST.uml#_pApqATn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjYzn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAqREDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjZDn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAq4IDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjZTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjZjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rDAjZzn4Eeq2A4YSv3yYAg" name="testSubTree">
+      <modelElement href="PolymorphicBST.uml#_pArfMDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjaDn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAsGQDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjaTn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAstUDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjajn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjazn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rDAjbDn4Eeq2A4YSv3yYAg" name="testMaxandMin">
+      <modelElement href="PolymorphicBST.uml#_pAstUjn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjbTn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAtUYDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjbjn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAt7cDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjbzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjcDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rDAjcTn4Eeq2A4YSv3yYAg" name="testDelete">
+      <modelElement href="PolymorphicBST.uml#_pAt7cjn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjcjn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAuigDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjczn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAvJkDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjdDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjdTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rDAjdjn4Eeq2A4YSv3yYAg" name="testDelete2">
+      <modelElement href="PolymorphicBST.uml#_pAvJkjn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjdzn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAvwoDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjeDn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAwXsDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjeTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjejn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rDAjezn4Eeq2A4YSv3yYAg" name="testDelete3">
+      <modelElement href="PolymorphicBST.uml#_pAwXsjn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjfDn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAw-wDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjfTn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pAxl0Dn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjfjn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjfzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rDAjgDn4Eeq2A4YSv3yYAg" name="testDelete4">
+      <modelElement href="PolymorphicBST.uml#_pAyM4Tn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjgTn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pAzbADn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjgjn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pA0CEDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjgzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjhDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rDAjhTn4Eeq2A4YSv3yYAg" name="testDelete5">
+      <modelElement href="PolymorphicBST.uml#_pA0pIDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rDAjhjn4Eeq2A4YSv3yYAg" name="LegacyStyledElement">
+        <modelElement href="PolymorphicBST.uml#_pA1QMDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_rDAjhzn4Eeq2A4YSv3yYAg" name="Annotations">
+        <modelElement href="PolymorphicBST.uml#_pA13QDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rDAjiDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rDAjiTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_rEgYIDn4Eeq2A4YSv3yYAg" comments="_q8IfQDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_q8JGUDn4Eeq2A4YSv3yYAg" name="TraversalTask" subclassedBy="_q7_8YDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pCcZwDn4Eeq2A4YSv3yYAg"/>
+    <visualProperties xmi:id="_rEgYITn4Eeq2A4YSv3yYAg" position="83.0,813.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rEgYIjn4Eeq2A4YSv3yYAg" name="Generics">
+      <modelElement href="PolymorphicBST.uml#_pCe2ADn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <visibility xmi:id="_rEgYIzn4Eeq2A4YSv3yYAg" label="+"/>
+    <operations xmi:id="_rEgYJDn4Eeq2A4YSv3yYAg" name="performTask">
+      <modelElement href="PolymorphicBST.uml#_pNnvADn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rEgYJTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rEgYJjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rEgYJzn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pNnvATn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rEgYKDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rEgYKTn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rEgYKjn4Eeq2A4YSv3yYAg" name="value">
+        <modelElement href="PolymorphicBST.uml#_pNoWEDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rEgYKzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rEgYLDn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_rGacoDn4Eeq2A4YSv3yYAg" comments="_qxCCgDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxCpkDn4Eeq2A4YSv3yYAg" name="Tree" associationsIn="_qxFF0Dn4Eeq2A4YSv3yYAg _qxFs4Dn4Eeq2A4YSv3yYAg _q9X1YDn4Eeq2A4YSv3yYAg" subclassedBy="_qxD3sDn4Eeq2A4YSv3yYAg _qxEewDn4Eeq2A4YSv3yYAg">
+    <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+    <visualProperties xmi:id="_rGacoTn4Eeq2A4YSv3yYAg" position="233.0,42.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_rGacojn4Eeq2A4YSv3yYAg" name="Generics">
+      <modelElement href="PolymorphicBST.uml#_pCmKwDn4Eeq2A4YSv3yYAg"/>
+    </stereotypes>
+    <visibility xmi:id="_rGacozn4Eeq2A4YSv3yYAg" label="+"/>
+    <operations xmi:id="_rGacpDn4Eeq2A4YSv3yYAg" comments="_qxGT8Dn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxG7ADn4Eeq2A4YSv3yYAg" name="max">
+      <modelElement href="PolymorphicBST.uml#_pCpOEDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rGacpTn4Eeq2A4YSv3yYAg" label="~"/>
+      <cardinality xmi:id="_rGacpjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rGacpzn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNvDwTn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_rGacqDn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rGacqTn4Eeq2A4YSv3yYAg" comments="_qxHiEDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxHiETn4Eeq2A4YSv3yYAg" name="min">
+      <modelElement href="PolymorphicBST.uml#_pCqcMDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rGacqjn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rGacqzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rGacrDn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNvq0Dn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_rGacrTn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rGacrjn4Eeq2A4YSv3yYAg" comments="_qxIJIDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxIwMDn4Eeq2A4YSv3yYAg" name="size">
+      <modelElement href="PolymorphicBST.uml#_pCrDQDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rGacrzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rGacsDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rGacsTn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pCrqUDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_rGacsjn4Eeq2A4YSv3yYAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rGacszn4Eeq2A4YSv3yYAg" comments="_qxJXQDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxJ-UDn4Eeq2A4YSv3yYAg" name="height">
+      <modelElement href="PolymorphicBST.uml#_pCtfgDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rGactDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rGactTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rGactjn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pCuGkDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_rGactzn4Eeq2A4YSv3yYAg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_rGacuDn4Eeq2A4YSv3yYAg" comments="_qxKlYDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxKlYTn4Eeq2A4YSv3yYAg" name="inorderTraversal">
+      <modelElement href="PolymorphicBST.uml#_pMRrMDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rGacuTn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rGacujn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rGacuzn4Eeq2A4YSv3yYAg" name="p">
+        <modelElement href="PolymorphicBST.uml#_pMRrMTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rGacvDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rGacvTn4Eeq2A4YSv3yYAg" name="TraversalTask">
+          <modelElement href="PolymorphicBST.uml#_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rGacvjn4Eeq2A4YSv3yYAg" comments="_qxLMcDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxLzgDn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal">
+      <modelElement href="PolymorphicBST.uml#_pMS5UTn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rGacvzn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rGacwDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rGacwTn4Eeq2A4YSv3yYAg" name="p">
+        <modelElement href="PolymorphicBST.uml#_pMS5Ujn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rGacwjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rGacwzn4Eeq2A4YSv3yYAg" name="TraversalTask">
+          <modelElement href="PolymorphicBST.uml#_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rGacxDn4Eeq2A4YSv3yYAg" comments="_qxMakDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxNosDn4Eeq2A4YSv3yYAg" name="search">
+      <modelElement href="PolymorphicBST.uml#_pNo9IDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rGacxTn4Eeq2A4YSv3yYAg" label="~"/>
+      <cardinality xmi:id="_rGacxjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rGacxzn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNpkMTn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_rGacyDn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rGacyTn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pNpkMDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rGacyjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rGacyzn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rGaczDn4Eeq2A4YSv3yYAg" comments="_qxO20Dn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxO20Tn4Eeq2A4YSv3yYAg" name="insert">
+      <modelElement href="PolymorphicBST.uml#_pNrZYDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rGaczTn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pNsngDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rGaczjn4Eeq2A4YSv3yYAg" label="~"/>
+      <cardinality xmi:id="_rGaczzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rGac0Dn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNtOkDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_rGac0Tn4Eeq2A4YSv3yYAg" name="NonEmptyTree">
+          <modelElement href="PolymorphicBST.uml#_pDF6ADn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rGac0jn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pNrZYTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rGac0zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rGac1Dn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rGac1Tn4Eeq2A4YSv3yYAg" name="value">
+        <modelElement href="PolymorphicBST.uml#_pNrZYjn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rGac1jn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rGac1zn4Eeq2A4YSv3yYAg" name="V">
+          <modelElement href="PolymorphicBST.uml#_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rGac2Dn4Eeq2A4YSv3yYAg" comments="_qxRTEDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxRTETn4Eeq2A4YSv3yYAg" name="delete">
+      <modelElement href="PolymorphicBST.uml#_pNt1oDn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rGac2Tn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pNucsDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rGac2jn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rGac2zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rGac3Dn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNvDwDn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_rGac3Tn4Eeq2A4YSv3yYAg" name="Tree">
+          <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rGac3jn4Eeq2A4YSv3yYAg" name="key">
+        <modelElement href="PolymorphicBST.uml#_pNt1oTn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rGac3zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rGac4Dn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rGac4Tn4Eeq2A4YSv3yYAg" comments="_qxShMDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxShMTn4Eeq2A4YSv3yYAg" name="addKeysToCollection">
+      <modelElement href="PolymorphicBST.uml#_pNwR4Dn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rGac4jn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rGac4zn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rGac5Dn4Eeq2A4YSv3yYAg" name="c">
+        <modelElement href="PolymorphicBST.uml#_pNwR4Tn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rGac5Tn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rGac5jn4Eeq2A4YSv3yYAg" name="Collection">
+          <modelElement href="PolymorphicBST.uml#_pLscYDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rGac5zn4Eeq2A4YSv3yYAg" comments="_qxTvUDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_qxVkgDn4Eeq2A4YSv3yYAg" name="subTree">
+      <modelElement href="PolymorphicBST.uml#_pNxgATn4Eeq2A4YSv3yYAg"/>
+      <stereotypes xmi:id="_rGac6Dn4Eeq2A4YSv3yYAg" name="Generics">
+        <modelElement href="PolymorphicBST.uml#_pNyuIDn4Eeq2A4YSv3yYAg"/>
+      </stereotypes>
+      <visibility xmi:id="_rGac6Tn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rGac6jn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_rGac6zn4Eeq2A4YSv3yYAg">
+        <modelElement href="PolymorphicBST.uml#_pNyuITn4Eeq2A4YSv3yYAg"/>
+        <type xmi:id="_rGac7Dn4Eeq2A4YSv3yYAg" name="Tree">
+          <modelElement href="PolymorphicBST.uml#_pCgrMDn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_rGbDsDn4Eeq2A4YSv3yYAg" name="fromKey">
+        <modelElement href="PolymorphicBST.uml#_pNyHEDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rGbDsTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rGbDsjn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_rGbDszn4Eeq2A4YSv3yYAg" name="toKey">
+        <modelElement href="PolymorphicBST.uml#_pNyHETn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rGbDtDn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+        <type xmi:id="_rGbDtTn4Eeq2A4YSv3yYAg" name="K">
+          <modelElement href="PolymorphicBST.uml#_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rLV_8Dn4Eeq2A4YSv3yYAg" comments="_rLUx0Dn4Eeq2A4YSv3yYAg" targetConnectionVisual="_rLUx0Tn4Eeq2A4YSv3yYAg" name="TreeIsEmptyException">
+    <modelElement href="PolymorphicBST.uml#_pBy5gDn4Eeq2A4YSv3yYAg"/>
+    <visualProperties xmi:id="_rLV_8Tn4Eeq2A4YSv3yYAg" position="308.0,1127.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rLV_8jn4Eeq2A4YSv3yYAg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_rQzuwDn4Eeq2A4YSv3yYAg" comments="_rQwEYDn4Eeq2A4YSv3yYAg" targetConnectionVisual="_rQygoDn4Eeq2A4YSv3yYAg" name="TreeSpeed">
+    <modelElement href="PolymorphicBST.uml#_pAB-8Dn4Eeq2A4YSv3yYAg"/>
+    <visualProperties xmi:id="_rQzuwTn4Eeq2A4YSv3yYAg" position="767.0,808.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_rQzuwjn4Eeq2A4YSv3yYAg" label="+"/>
+    <operations xmi:id="_rQzuwzn4Eeq2A4YSv3yYAg" name="main" staticOperation="true">
+      <modelElement href="PolymorphicBST.uml#_pAOzQDn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rQzuxDn4Eeq2A4YSv3yYAg" label="+"/>
+      <cardinality xmi:id="_rQzuxTn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_rQzuxjn4Eeq2A4YSv3yYAg" name="args">
+        <modelElement href="PolymorphicBST.uml#_pAPaUDn4Eeq2A4YSv3yYAg"/>
+        <cardinality xmi:id="_rQzuxzn4Eeq2A4YSv3yYAg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_rQzuyDn4Eeq2A4YSv3yYAg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_rQzuyTn4Eeq2A4YSv3yYAg" name="timePolymorphicTree" staticOperation="true">
+      <modelElement href="PolymorphicBST.uml#_pAUS0Dn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rQzuyjn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_rQzuyzn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_rQzuzDn4Eeq2A4YSv3yYAg" name="timeTreeMap" staticOperation="true">
+      <modelElement href="PolymorphicBST.uml#_pAVg8Dn4Eeq2A4YSv3yYAg"/>
+      <visibility xmi:id="_rQzuzTn4Eeq2A4YSv3yYAg" label="-"/>
+      <cardinality xmi:id="_rQzuzjn4Eeq2A4YSv3yYAg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

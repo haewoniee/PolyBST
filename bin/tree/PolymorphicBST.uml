@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_lo1ZoDn4Eeq2A4YSv3yYAg" name="PolymorphicBST">
+    <eAnnotations xmi:id="_oZ2IsDn4Eeq2A4YSv3yYAg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_oZ2vwDn4Eeq2A4YSv3yYAg" source="codegen">
+        <details xmi:id="_oZ2vwTn4Eeq2A4YSv3yYAg" key="codegenDirectory" value="/PolymorphicBST/src"/>
+        <details xmi:id="_pzmw8Dn4Eeq2A4YSv3yYAg" key="AssociatedSourceCode" value="/PolymorphicBST/src/performanceReport/TreeSpeed.java;4062933420/1;/PolymorphicBST/src/tests/PublicTests.java;1317668311/1;/PolymorphicBST/src/tests/StudentTests.java;54354071/1;/PolymorphicBST/src/tree/EmptyTree.java;947583805/1;/PolymorphicBST/src/tree/TreeIsEmptyException.java;176383619/1;/PolymorphicBST/src/tree/PlaceKeysValuesInArrayLists.java;3136139596/1;/PolymorphicBST/src/tree/PolymorphicBST.java;288616336/1;/PolymorphicBST/src/tree/TraversalTask.java;3317525088/1;/PolymorphicBST/src/tree/Tree.java;589141487/1;/PolymorphicBST/src/tree/NonEmptyTree.java;3539914491/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_o9-JcDn4Eeq2A4YSv3yYAg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_o9-wgDn4Eeq2A4YSv3yYAg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_o9-wgTn4Eeq2A4YSv3yYAg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_o9_XkDn4Eeq2A4YSv3yYAg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_o9_XkTn4Eeq2A4YSv3yYAg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_o9_-oDn4Eeq2A4YSv3yYAg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_o9_-oTn4Eeq2A4YSv3yYAg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_o9_-ojn4Eeq2A4YSv3yYAg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_o-BMwDn4Eeq2A4YSv3yYAg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_o-H6cDn4Eeq2A4YSv3yYAg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_o-H6cTn4Eeq2A4YSv3yYAg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_pLZhcDn4Eeq2A4YSv3yYAg" name="Random"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pLfBADn4Eeq2A4YSv3yYAg" name="TreeMap"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pLirYDn4Eeq2A4YSv3yYAg" name="NoSuchElementException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pLoK8Dn4Eeq2A4YSv3yYAg" name="HashSet"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_pLscYDn4Eeq2A4YSv3yYAg" name="Collection"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_pMDowDn4Eeq2A4YSv3yYAg" name="Set"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pNE8cDn4Eeq2A4YSv3yYAg" name="ArrayList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_pNDHQDn4Eeq2A4YSv3yYAg" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_pNDHQTn4Eeq2A4YSv3yYAg" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_o-JIkDn4Eeq2A4YSv3yYAg" name="tree">
+      <packagedElement xmi:type="uml:Class" xmi:id="_pA3scDn4Eeq2A4YSv3yYAg" name="EmptyTree">
+        <ownedComment xmi:id="_pPCEQDn4Eeq2A4YSv3yYAg">
+          <body>This class is used to represent the empty search tree: a search tree that
+contains no entries.
+
+This class is a singleton class: since all empty search trees are the same,
+there is no need for multiple instances of this class. Instead, a single
+instance of the class is created and made available through the static field
+SINGLETON.
+
+The constructor is private, preventing other code from mistakenly creating
+additional instances of the class.
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_pOKhkDn4Eeq2A4YSv3yYAg" name="SINGLETON" visibility="private" isStatic="true" type="_pA3scDn4Eeq2A4YSv3yYAg" association="_pPQtwDn4Eeq2A4YSv3yYAg">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_pOLIoDn4Eeq2A4YSv3yYAg" value="new EmptyTree()"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_pLuRkDn4Eeq2A4YSv3yYAg" client="_pA3scDn4Eeq2A4YSv3yYAg" supplier="_pCgrMDn4Eeq2A4YSv3yYAg" contract="_pCgrMDn4Eeq2A4YSv3yYAg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOl_YDn4Eeq2A4YSv3yYAg" name="getInstance" specification="_pA-aIDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOl_YTn4Eeq2A4YSv3yYAg" type="_pA3scDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>return SINGLETON;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOl_Yjn4Eeq2A4YSv3yYAg" name="EmptyTree" specification="_pBD5sDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOl_Yzn4Eeq2A4YSv3yYAg" type="_pA3scDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>// Nothing to do 
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOmmcDn4Eeq2A4YSv3yYAg" name="search" specification="_pMyokTn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOmmcTn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOmmcjn4Eeq2A4YSv3yYAg" type="_pMvlQDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>return null;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOre8Dn4Eeq2A4YSv3yYAg" name="insert" specification="_pM1r4Dn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOre8Tn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOre8jn4Eeq2A4YSv3yYAg" name="value" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOre8zn4Eeq2A4YSv3yYAg" type="_pDF6ADn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>return new NonEmptyTree&lt;K, V>(key, value, this, this);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOsGADn4Eeq2A4YSv3yYAg" name="delete" specification="_pM4IIDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOsGATn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOsGAjn4Eeq2A4YSv3yYAg" type="_pCgrMDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>// if tree empty, return this
+		return this;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOstEDn4Eeq2A4YSv3yYAg" name="max" specification="_pBILIDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOstETn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>throw new TreeIsEmptyException();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOstEjn4Eeq2A4YSv3yYAg" name="min" specification="_pBJZQDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOstEzn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>throw new TreeIsEmptyException();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOtUIDn4Eeq2A4YSv3yYAg" name="size" specification="_pBKnYDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOtUITn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 0;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOt7MDn4Eeq2A4YSv3yYAg" name="addKeysToCollection" specification="_pM7ygDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOt7MTn4Eeq2A4YSv3yYAg" name="c" type="_pLscYDn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>return;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOt7Mjn4Eeq2A4YSv3yYAg" name="subTree" specification="_pM_c4Dn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOt7Mzn4Eeq2A4YSv3yYAg" name="fromKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOt7NDn4Eeq2A4YSv3yYAg" name="toKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOt7NTn4Eeq2A4YSv3yYAg" type="_pCgrMDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>return this;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOuiQDn4Eeq2A4YSv3yYAg" name="height" specification="_pBMckDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOuiQTn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 0;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOvJUDn4Eeq2A4YSv3yYAg" name="inorderTraversal" specification="_pL4CkDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOvJUTn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>// nothing to be done
+		return;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOvwYDn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal" specification="_pL7F4Tn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOvwYTn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>// nothing to be done
+		return;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_pA-aIDn4Eeq2A4YSv3yYAg" name="getInstance" isStatic="true" method="_pOl_YDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pLzKEDn4Eeq2A4YSv3yYAg" type="_pA3scDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pBD5sDn4Eeq2A4YSv3yYAg" name="EmptyTree" visibility="private" method="_pOl_Yjn4Eeq2A4YSv3yYAg">
+          <eAnnotations xmi:id="_pBEgwDn4Eeq2A4YSv3yYAg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_pBFH0Dn4Eeq2A4YSv3yYAg" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_pPCEQTn4Eeq2A4YSv3yYAg">
+            <body>Constructor is private to enforce it being a singleton
+	 *</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pBFH0Tn4Eeq2A4YSv3yYAg" type="_pA3scDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pBILIDn4Eeq2A4YSv3yYAg" name="max" method="_pOstEDn4Eeq2A4YSv3yYAg" raisedException="_pBy5gDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pM6kYDn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pBJZQDn4Eeq2A4YSv3yYAg" name="min" method="_pOstEjn4Eeq2A4YSv3yYAg" raisedException="_pBy5gDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pM7LcDn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pBKnYDn4Eeq2A4YSv3yYAg" name="size" method="_pOtUIDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pBLOcDn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pBMckDn4Eeq2A4YSv3yYAg" name="height" method="_pOuiQDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pBNDoDn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pL4CkDn4Eeq2A4YSv3yYAg" name="inorderTraversal" method="_pOvJUDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pL4CkTn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pL7F4Tn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal" method="_pOvwYDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pL7s8Dn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pMyokTn4Eeq2A4YSv3yYAg" name="search" method="_pOmmcDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pMyokjn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pMzPoDn4Eeq2A4YSv3yYAg" type="_pMvlQDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pM1r4Dn4Eeq2A4YSv3yYAg" name="insert" method="_pOre8Dn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pM1r4Tn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pM1r4jn4Eeq2A4YSv3yYAg" name="value" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pM26ATn4Eeq2A4YSv3yYAg" type="_pDF6ADn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pM4IIDn4Eeq2A4YSv3yYAg" name="delete" method="_pOsGADn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pM4vMDn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pM59UTn4Eeq2A4YSv3yYAg" type="_pCgrMDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pM7ygDn4Eeq2A4YSv3yYAg" name="addKeysToCollection" method="_pOt7MDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pM8ZkDn4Eeq2A4YSv3yYAg" name="c" type="_pLscYDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pM_c4Dn4Eeq2A4YSv3yYAg" name="subTree" method="_pOt7Mjn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pNArADn4Eeq2A4YSv3yYAg" name="fromKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNArATn4Eeq2A4YSv3yYAg" name="toKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNB5ITn4Eeq2A4YSv3yYAg" type="_pCgrMDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pBy5gDn4Eeq2A4YSv3yYAg" name="TreeIsEmptyException">
+        <ownedComment xmi:id="_pPCrUDn4Eeq2A4YSv3yYAg">
+          <body>This is a checked exception, used internally by SearchTree nodes, to signal that a tree
+has no minimum or maximum element. 
+ *</body>
+        </ownedComment>
+        <generalization xmi:id="_pNEVYTn4Eeq2A4YSv3yYAg" general="_pNDHQTn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pB0usDn4Eeq2A4YSv3yYAg" name="PlaceKeysValuesInArrayLists">
+        <ownedComment xmi:id="_pPCrUTn4Eeq2A4YSv3yYAg">
+          <body>This task places key/values in two arrays in the order
+in which the key/values are seen during the traversal.  If no keys/values
+are found the ArrayList will be empty (constructor creates two
+empty ArrayLists).  
+ *
+@param &lt;K>
+@param &lt;V></body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_pOOzADn4Eeq2A4YSv3yYAg" name="keys" type="_pNE8cDn4Eeq2A4YSv3yYAg" isReadOnly="true" association="_pPTKADn4Eeq2A4YSv3yYAg"/>
+        <ownedAttribute xmi:id="_pOQBIDn4Eeq2A4YSv3yYAg" name="values" type="_pNE8cDn4Eeq2A4YSv3yYAg" isReadOnly="true" association="_pPTxETn4Eeq2A4YSv3yYAg"/>
+        <interfaceRealization xmi:id="_pL_-YDn4Eeq2A4YSv3yYAg" client="_pB0usDn4Eeq2A4YSv3yYAg" supplier="_pCcZwDn4Eeq2A4YSv3yYAg" contract="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOwXcDn4Eeq2A4YSv3yYAg" name="PlaceKeysValuesInArrayLists" specification="_pB4ZEDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOwXcTn4Eeq2A4YSv3yYAg" type="_pB0usDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>keys = new ArrayList&lt;K>();
+		values = new ArrayList&lt;V>();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOwXcjn4Eeq2A4YSv3yYAg" name="performTask" specification="_pNGKkDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOw-gDn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOw-gTn4Eeq2A4YSv3yYAg" name="value" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>keys.add(key);
+		values.add(value);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_pB4ZEDn4Eeq2A4YSv3yYAg" name="PlaceKeysValuesInArrayLists" method="_pOwXcDn4Eeq2A4YSv3yYAg">
+          <eAnnotations xmi:id="_pB5AIDn4Eeq2A4YSv3yYAg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_pB5AITn4Eeq2A4YSv3yYAg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_pB5AIjn4Eeq2A4YSv3yYAg" type="_pB0usDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pNGKkDn4Eeq2A4YSv3yYAg" name="performTask" method="_pOwXcjn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pNGKkTn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNGxoDn4Eeq2A4YSv3yYAg" name="value" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pB-fsDn4Eeq2A4YSv3yYAg" name="PolymorphicBST">
+        <ownedComment xmi:id="_pPCrUjn4Eeq2A4YSv3yYAg">
+          <body>This class represents the polymorphic tree. 
+The implementation uses classes implementing the Tree interface to represent the
+actual search tree. Some methods of this class has been implemented for you.
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_pORPQDn4Eeq2A4YSv3yYAg" name="root" visibility="package" type="_pCgrMDn4Eeq2A4YSv3yYAg" association="_pPU_MDn4Eeq2A4YSv3yYAg">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_pOTrgDn4Eeq2A4YSv3yYAg" value="EmptyTree.getInstance()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOw-gjn4Eeq2A4YSv3yYAg" name="get" specification="_pNHYsDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOw-gzn4Eeq2A4YSv3yYAg" name="k" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOw-hDn4Eeq2A4YSv3yYAg" type="_pMvlQDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>return root.search(k);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOyMoDn4Eeq2A4YSv3yYAg" name="put" specification="_pNLDEDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOyMoTn4Eeq2A4YSv3yYAg" name="k" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOyMojn4Eeq2A4YSv3yYAg" name="v" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>root = root.insert(k, v);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOyzsDn4Eeq2A4YSv3yYAg" name="size" specification="_pCCxIDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOyzsTn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return root.size();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOzawDn4Eeq2A4YSv3yYAg" name="remove" specification="_pNLqIDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOzawTn4Eeq2A4YSv3yYAg" name="k" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>root = root.delete(k);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO0B0Dn4Eeq2A4YSv3yYAg" name="keySet" specification="_pCEmUDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO0B0Tn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pO0B0jn4Eeq2A4YSv3yYAg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Set&lt;K> set = new HashSet&lt;K>();
+		root.addKeysToCollection(set);
+		return set; 
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO1P8Dn4Eeq2A4YSv3yYAg" name="getMin" specification="_pCGbgDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO1P8Tn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>try {
+			 return root.min();
+		 } catch (TreeIsEmptyException e) {
+			 throw new NoSuchElementException();
+		 }
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO13ADn4Eeq2A4YSv3yYAg" name="getMax" specification="_pCHCkDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO13ATn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>try {
+			 return root.max();
+		 } catch (TreeIsEmptyException e) {
+			 throw new NoSuchElementException();
+		 }
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO2eEDn4Eeq2A4YSv3yYAg" name="toString" specification="_pCLUADn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO2eETn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return root.toString();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO3FIDn4Eeq2A4YSv3yYAg" name="subMap" specification="_pNkrsDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO3FITn4Eeq2A4YSv3yYAg" name="fromKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO3FIjn4Eeq2A4YSv3yYAg" name="toKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO3FIzn4Eeq2A4YSv3yYAg" type="_pB-fsDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>PolymorphicBST&lt;K, V> sub = new PolymorphicBST&lt;K, V>();
+		sub.root = root.subTree(fromKey, toKey);
+		return sub;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO3sMDn4Eeq2A4YSv3yYAg" name="clear" specification="_pCNJMDn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>root = EmptyTree.getInstance();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO3sMTn4Eeq2A4YSv3yYAg" name="height" specification="_pCNwQDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO3sMjn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return root.height();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO3sMzn4Eeq2A4YSv3yYAg" name="inorderTraversal" specification="_pMHTIDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO3sNDn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>root.inorderTraversal(p);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO4TQDn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal" specification="_pMJvYDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO4TQTn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>root.rightRootLeftTraversal(p);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_pCCxIDn4Eeq2A4YSv3yYAg" name="size" method="_pOyzsDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPDSYDn4Eeq2A4YSv3yYAg">
+            <body>Return number of keys bound by this map
+	 * 
+	 * @return number of keys bound by this map</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pCDYMDn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pCEmUDn4Eeq2A4YSv3yYAg" name="keySet" method="_pO0B0Dn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPDSYjn4Eeq2A4YSv3yYAg">
+            <body>Return a Set of all the keys in the map
+	 * 
+	 * @return Set of all the keys in the map</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pCFNYDn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pCFNYTn4Eeq2A4YSv3yYAg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pCGbgDn4Eeq2A4YSv3yYAg" name="getMin" method="_pO1P8Dn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPDSYzn4Eeq2A4YSv3yYAg">
+            <body>Return the minimum key value in the map
+	 * 
+	 * @return the minimum key value in the map
+	 * @throws NoSuchElementException if the map is empty</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNjdkDn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pCHCkDn4Eeq2A4YSv3yYAg" name="getMax" method="_pO13ADn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPDSZDn4Eeq2A4YSv3yYAg">
+            <body>Return the maximum key value in the map
+	 * 
+	 * @return the maximum key value in the map
+	 * @throws NoSuchElementException if the map is empty</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNkEoDn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pCLUADn4Eeq2A4YSv3yYAg" name="toString" method="_pO2eEDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPDSZTn4Eeq2A4YSv3yYAg">
+            <body>Return a string representation of the tree.  You don't need
+	 * to implement this method.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pCL7EDn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pCNJMDn4Eeq2A4YSv3yYAg" name="clear" method="_pO3sMDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPDSZzn4Eeq2A4YSv3yYAg">
+            <body>Clears the tree by setting the root to EmptyTree</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pCNwQDn4Eeq2A4YSv3yYAg" name="height" method="_pO3sMTn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPD5cDn4Eeq2A4YSv3yYAg">
+            <body>Returns height of the tree.
+	 * @return height of the tree.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pCSBsDn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pMHTIDn4Eeq2A4YSv3yYAg" name="inorderTraversal" method="_pO3sMzn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPD5cTn4Eeq2A4YSv3yYAg">
+            <body>Performs an inorder traversal applying the task to eat tree key,value pair.
+	 * @param p</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pMH6MDn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pMJvYDn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal" method="_pO4TQDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPD5cjn4Eeq2A4YSv3yYAg">
+            <body>Performs the specified task on the tree using a right tree, root, left tree
+	 * traversal.
+	 * @param p object defining task</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pMJvYTn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pNHYsDn4Eeq2A4YSv3yYAg" name="get" method="_pOw-gjn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPCrUzn4Eeq2A4YSv3yYAg">
+            <body>Find the value the key is mapped to
+	 * 
+	 * @param k -
+	 *            Search key
+	 * @return value k is mapped to, or null if there is no mapping for the key</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNHYsTn4Eeq2A4YSv3yYAg" name="k" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNH_wDn4Eeq2A4YSv3yYAg" type="_pMvlQDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pNLDEDn4Eeq2A4YSv3yYAg" name="put" method="_pOyMoDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPCrVDn4Eeq2A4YSv3yYAg">
+            <body>Update the mapping for the key
+	 * 
+	 * @param k -
+	 *            key value
+	 * @param v -
+	 *            value the key should be bound to</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNLDETn4Eeq2A4YSv3yYAg" name="k" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNLDEjn4Eeq2A4YSv3yYAg" name="v" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pNLqIDn4Eeq2A4YSv3yYAg" name="remove" method="_pOzawDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPDSYTn4Eeq2A4YSv3yYAg">
+            <body>Remove any existing binding for a key
+	 * 
+	 * @param k -
+	 *            key to be removed from the map</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNLqITn4Eeq2A4YSv3yYAg" name="k" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pNkrsDn4Eeq2A4YSv3yYAg" name="subMap" method="_pO3FIDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPDSZjn4Eeq2A4YSv3yYAg">
+            <body>Return subset of TreeMap between the values fromKey-toKey.  It will
+	 * include fromKey and toKey if they are found in the original map.
+	 * The values for fromKey and toKey do not actually need to be in the map.
+	 * You can assume than fromKey is less than or equal to toKey.
+	 * 
+	 * @return TreeMap consisting of subset of SearchTreeMap</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNkrsTn4Eeq2A4YSv3yYAg" name="fromKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNkrsjn4Eeq2A4YSv3yYAg" name="toKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNmg4Dn4Eeq2A4YSv3yYAg" type="_pB-fsDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_pCcZwDn4Eeq2A4YSv3yYAg" name="TraversalTask">
+        <ownedComment xmi:id="_pPD5czn4Eeq2A4YSv3yYAg">
+          <body>When we perform a traversal of a tree, we call the
+performTask method to process each key,value pair in
+the tree.  Classes implementing this interface, allow
+us to collect keys, print values, etc.
+@author cmsc132
+ *
+@param &lt;K>
+@param &lt;V></body>
+        </ownedComment>
+        <ownedOperation xmi:id="_pNnvADn4Eeq2A4YSv3yYAg" name="performTask">
+          <ownedParameter xmi:id="_pNnvATn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNoWEDn4Eeq2A4YSv3yYAg" name="value" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_pCgrMDn4Eeq2A4YSv3yYAg" name="Tree">
+        <ownedComment xmi:id="_pPD5dDn4Eeq2A4YSv3yYAg">
+          <body>This interface describes the interface for both empty and non-empty search
+trees.</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_pCpOEDn4Eeq2A4YSv3yYAg" name="max" visibility="package" raisedException="_pBy5gDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPEggTn4Eeq2A4YSv3yYAg">
+            <body>Return the maximum key in the subtree
+	 * 
+	 * @return maximum key
+	 * @throws TreeIsEmptyException if the tree is empty</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNvDwTn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pCqcMDn4Eeq2A4YSv3yYAg" name="min" raisedException="_pBy5gDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPEggjn4Eeq2A4YSv3yYAg">
+            <body>Return the minimum key in the subtree
+	 * 
+	 * @return minimum key
+	 * @throws TreeIsEmptyException if the tree is empty</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNvq0Dn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pCrDQDn4Eeq2A4YSv3yYAg" name="size">
+          <ownedComment xmi:id="_pPEggzn4Eeq2A4YSv3yYAg">
+            <body>Return number of keys that are bound in this tree.
+	 * 
+	 * @return number of keys that are bound in this tree.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pCrqUDn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pCtfgDn4Eeq2A4YSv3yYAg" name="height">
+          <ownedComment xmi:id="_pPEghjn4Eeq2A4YSv3yYAg">
+            <body>Returns the height (maximum level) in the tree.  A tree with only one
+	 * entry has a height of 1.
+	 * @return height of the tree.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pCuGkDn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pMRrMDn4Eeq2A4YSv3yYAg" name="inorderTraversal">
+          <ownedComment xmi:id="_pPEghzn4Eeq2A4YSv3yYAg">
+            <body>Performs the specified task on the tree using an inorder traversal.
+	 * @param p object defining task</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pMRrMTn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pMS5UTn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal">
+          <ownedComment xmi:id="_pPEgiDn4Eeq2A4YSv3yYAg">
+            <body>Performs the specified task on the tree using a right tree, root, left tree
+	 * traversal.
+	 * @param p object defining task</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pMS5Ujn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pNo9IDn4Eeq2A4YSv3yYAg" name="search" visibility="package">
+          <ownedComment xmi:id="_pPD5dTn4Eeq2A4YSv3yYAg">
+            <body>Find the value that this key is bound to in this tree.
+	 * 
+	 * @param key --
+	 *            Key to search for
+	 * @return -- value associated with the key by this Tree, or null if the key
+	 *         does not have an association in this tree.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNpkMDn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNpkMTn4Eeq2A4YSv3yYAg" type="_pMvlQDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pNrZYDn4Eeq2A4YSv3yYAg" name="insert" visibility="package">
+          <ownedComment xmi:id="_pPD5djn4Eeq2A4YSv3yYAg">
+            <body>Insert/update the Tree with a new key:value pair. If the key already
+	 * exists in the tree, update the value associated with it. If the key
+	 * doesn't exist, insert the new key value pair.
+	 * 
+	 * This method returns a reference to an Tree that represents the updated
+	 * value. In many, but not all cases, the method may just return a
+	 * reference to this. This method is annotated @CheckReturnValue because
+	 * you have to pay attention to the return value; if you simply invoke insert on
+	 * a Tree and ignore the return value, your code is almost certainly wrong. 
+	 * 
+	 * @param key --
+	 *            Key
+	 * @param value --
+	 *            Value that the key maps to
+	 * @return -- updated tree</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNrZYTn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNrZYjn4Eeq2A4YSv3yYAg" name="value" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNtOkDn4Eeq2A4YSv3yYAg" type="_pDF6ADn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pNt1oDn4Eeq2A4YSv3yYAg" name="delete">
+          <ownedComment xmi:id="_pPEggDn4Eeq2A4YSv3yYAg">
+            <body>Delete any binding the key has in this tree. If the key isn't bound, this
+	 * is a no-op
+	 * 
+	 * This method returns a reference to an Tree that represents the updated
+	 * value. In many, but not all cases, the method may just return a
+	 * reference to this. This method is annotated @CheckReturnValue because
+	 * you have to pay attention to the return value; if you simply invoke delete on
+	 * a Tree and ignore the return value, your code is almost certainly wrong. 
+	 * 
+	 * @param key --
+	 *            Key
+	 * @return -- updated tree</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNt1oTn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNvDwDn4Eeq2A4YSv3yYAg" type="_pCgrMDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pNwR4Dn4Eeq2A4YSv3yYAg" name="addKeysToCollection">
+          <ownedComment xmi:id="_pPEghDn4Eeq2A4YSv3yYAg">
+            <body>Add all keys bound in this tree to the collection c.
+	 * The elements can be added in any order.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNwR4Tn4Eeq2A4YSv3yYAg" name="c" type="_pLscYDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pNxgATn4Eeq2A4YSv3yYAg" name="subTree">
+          <ownedComment xmi:id="_pPEghTn4Eeq2A4YSv3yYAg">
+            <body>Returns a Tree containing all entries between fromKey and toKey, inclusive.
+	 * It may not modify the original tree (a common mistake while implementing this method).
+	 * 
+	 * @param fromKey - Lower bound value for keys in subtree
+	 * @param toKey - Upper bound value for keys in subtree
+	 * @return Tree containing all entries between fromKey and toKey, inclusive</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pNyHEDn4Eeq2A4YSv3yYAg" name="fromKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNyHETn4Eeq2A4YSv3yYAg" name="toKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pNyuITn4Eeq2A4YSv3yYAg" type="_pCgrMDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pDF6ADn4Eeq2A4YSv3yYAg" name="NonEmptyTree">
+        <ownedComment xmi:id="_pPFHkDn4Eeq2A4YSv3yYAg">
+          <body>This class represents a non-empty search tree. An instance of this class
+should contain:
+&lt;ul>
+&lt;li>A key
+&lt;li>A value (that the key maps to)
+&lt;li>A reference to a left Tree that contains key:value pairs such that the
+keys in the left Tree are less than the key stored in this tree node.
+&lt;li>A reference to a right Tree that contains key:value pairs such that the
+keys in the right Tree are greater than the key stored in this tree node.
+&lt;/ul>
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_pOU5oDn4Eeq2A4YSv3yYAg" name="key" visibility="private" type="_pMwzYTn4Eeq2A4YSv3yYAg" association="_pPVmQTn4Eeq2A4YSv3yYAg"/>
+        <ownedAttribute xmi:id="_pOVgsTn4Eeq2A4YSv3yYAg" name="value" visibility="private" type="_pMvlQDn4Eeq2A4YSv3yYAg" association="_pPWNUTn4Eeq2A4YSv3yYAg"/>
+        <ownedAttribute xmi:id="_pOWu0Dn4Eeq2A4YSv3yYAg" name="left" visibility="private" type="_pCgrMDn4Eeq2A4YSv3yYAg" association="_pPXbcDn4Eeq2A4YSv3yYAg"/>
+        <ownedAttribute xmi:id="_pPFHkTn4Eeq2A4YSv3yYAg" name="right" visibility="private" type="_pCgrMDn4Eeq2A4YSv3yYAg" association="_pPYCgTn4Eeq2A4YSv3yYAg"/>
+        <interfaceRealization xmi:id="_pMYY4Dn4Eeq2A4YSv3yYAg" client="_pDF6ADn4Eeq2A4YSv3yYAg" supplier="_pCgrMDn4Eeq2A4YSv3yYAg" contract="_pCgrMDn4Eeq2A4YSv3yYAg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO46UDn4Eeq2A4YSv3yYAg" name="NonEmptyTree" specification="_pN0jUDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO46UTn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO46Ujn4Eeq2A4YSv3yYAg" name="value" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO46Uzn4Eeq2A4YSv3yYAg" name="left" type="_pCgrMDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO46VDn4Eeq2A4YSv3yYAg" name="right" type="_pCgrMDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO46VTn4Eeq2A4YSv3yYAg" type="_pDF6ADn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>this.key = key;
+		this.value = value;
+		this.left = left;
+		this.right = right; 
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO5hYDn4Eeq2A4YSv3yYAg" name="search" specification="_pN7RADn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO5hYTn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO5hYjn4Eeq2A4YSv3yYAg" type="_pMvlQDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>int compare = this.key.compareTo(key);
+		if (compare &lt; 0) {
+			return right.search(key);
+		} else if (compare > 0) {
+			return left.search(key);
+		} else if (compare == 0) {
+			return value;
+		} else {
+			return null;
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO6IcDn4Eeq2A4YSv3yYAg" name="insert" specification="_pN9GMDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO6IcTn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO6Icjn4Eeq2A4YSv3yYAg" name="value" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO6Iczn4Eeq2A4YSv3yYAg" type="_pDF6ADn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>int compare = this.key.compareTo(key);
+		if (compare == 0) {
+			this.value = value;
+		} else if (compare > 0) {
+			left = left.insert(key, value);
+		} else if (compare &lt; 0) {
+			right = right.insert(key, value);
+		}
+		return this;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO6IdDn4Eeq2A4YSv3yYAg" name="delete" specification="_pOBXoDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO6IdTn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO6Idjn4Eeq2A4YSv3yYAg" type="_pCgrMDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>if (this.key.compareTo(key) > 0) {
+			left = left.delete(key);
+		}
+		if (this.key.compareTo(key) &lt; 0) {
+			right = right.delete(key);
+		}
+		if (this.key.compareTo(key) == 0) {
+			try {
+				return new NonEmptyTree&lt;K, V>(right.min(), search(right.min()),
+						left, right.delete(right.min()));
+			} catch (TreeIsEmptyException e) {
+				try {
+					return new NonEmptyTree&lt;K, V>(left.max(), search(left.max()),
+							left.delete(left.max()), right);
+				} catch (TreeIsEmptyException e1) {
+					return EmptyTree.getInstance();
+				}
+			}
+		}
+		return this;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO6vgDn4Eeq2A4YSv3yYAg" name="max" specification="_pDKLcDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO6vgTn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>try {
+			return right.max();
+		} catch (TreeIsEmptyException e) {
+			return key;
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO8ksDn4Eeq2A4YSv3yYAg" name="min" specification="_pDN10Dn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO8ksTn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>try {
+			return left.min();
+		} catch (TreeIsEmptyException e) {
+			return key;
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO9LwDn4Eeq2A4YSv3yYAg" name="size" specification="_pDPD8Dn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO9LwTn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return right.size() + left.size() + 1;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO9Lwjn4Eeq2A4YSv3yYAg" name="addKeysToCollection" specification="_pOEa8Dn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO9Lwzn4Eeq2A4YSv3yYAg" name="c" type="_pLscYDn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>c.add(key); 
+		right.addKeysToCollection(c);
+		left.addKeysToCollection(c);	
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO9y0Dn4Eeq2A4YSv3yYAg" name="subTree" specification="_pOGQIDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO9y0Tn4Eeq2A4YSv3yYAg" name="fromKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO9y0jn4Eeq2A4YSv3yYAg" name="toKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pO9y0zn4Eeq2A4YSv3yYAg" type="_pCgrMDn4Eeq2A4YSv3yYAg" direction="return"/>
+          <language>java</language>
+          <body>if (key.compareTo(fromKey) &lt; 0) {
+			return right.subTree(fromKey, toKey);
+		}
+		if (key.compareTo(toKey) > 0) {
+			return left.subTree(fromKey, toKey);
+		}
+		else {
+			Tree&lt;K,V> newTree = new NonEmptyTree&lt;K, V>(key, value, 
+					left.subTree(fromKey, toKey), right.subTree(fromKey, toKey));
+			return newTree;
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO9y1Dn4Eeq2A4YSv3yYAg" name="height" specification="_pDQSEDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO9y1Tn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return  Math.max(right.height(), left.height()) + 1;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO_oADn4Eeq2A4YSv3yYAg" name="inorderTraversal" specification="_pMcDQDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pO_oATn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>left.inorderTraversal(p);
+		p.performTask(key, value);
+		right.inorderTraversal(p);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pO_oAjn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal" specification="_pMfGkDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pPAPEDn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+          <language>java</language>
+          <body>right.rightRootLeftTraversal(p);
+		p.performTask(key, value);
+		left.rightRootLeftTraversal(p);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_pDKLcDn4Eeq2A4YSv3yYAg" name="max" method="_pO6vgDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pODM0Dn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pDN10Dn4Eeq2A4YSv3yYAg" name="min" method="_pO8ksDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pODz4Dn4Eeq2A4YSv3yYAg" type="_pMwzYTn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pDPD8Dn4Eeq2A4YSv3yYAg" name="size" method="_pO9LwDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pDPrADn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pDQSEDn4Eeq2A4YSv3yYAg" name="height" method="_pO9y1Dn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pDQSETn4Eeq2A4YSv3yYAg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pMcDQDn4Eeq2A4YSv3yYAg" name="inorderTraversal" method="_pO_oADn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pMcqUDn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pMfGkDn4Eeq2A4YSv3yYAg" name="rightRootLeftTraversal" method="_pO_oAjn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pMfGkTn4Eeq2A4YSv3yYAg" name="p" type="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pN0jUDn4Eeq2A4YSv3yYAg" name="NonEmptyTree" method="_pO46UDn4Eeq2A4YSv3yYAg">
+          <eAnnotations xmi:id="_pN1xcTn4Eeq2A4YSv3yYAg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_pN1xcjn4Eeq2A4YSv3yYAg" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_pPG8wDn4Eeq2A4YSv3yYAg">
+            <body>Only constructor we need.
+	 * @param key
+	 * @param value
+	 * @param left
+	 * @param right</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pN1KYDn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pN1KYTn4Eeq2A4YSv3yYAg" name="value" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pN1KYjn4Eeq2A4YSv3yYAg" name="left" type="_pCgrMDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pN1xcDn4Eeq2A4YSv3yYAg" name="right" type="_pCgrMDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pN1xczn4Eeq2A4YSv3yYAg" type="_pDF6ADn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pN7RADn4Eeq2A4YSv3yYAg" name="search" method="_pO5hYDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPG8wTn4Eeq2A4YSv3yYAg">
+            <body>Returns the value associated with the key by this Tree,
+	 * returns null if nothing matches</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pN7RATn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pN8fIDn4Eeq2A4YSv3yYAg" type="_pMvlQDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pN9GMDn4Eeq2A4YSv3yYAg" name="insert" method="_pO6IcDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pN9GMTn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pN9GMjn4Eeq2A4YSv3yYAg" name="value" type="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOAJgTn4Eeq2A4YSv3yYAg" type="_pDF6ADn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pOBXoDn4Eeq2A4YSv3yYAg" name="delete" method="_pO6IdDn4Eeq2A4YSv3yYAg">
+          <ownedComment xmi:id="_pPHj0Dn4Eeq2A4YSv3yYAg">
+            <body>Deletes any binding the key has in this tree Returns reference to updated
+	 * tree or This
+	 *</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_pOBXoTn4Eeq2A4YSv3yYAg" name="key" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOClwDn4Eeq2A4YSv3yYAg" type="_pCgrMDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pOEa8Dn4Eeq2A4YSv3yYAg" name="addKeysToCollection" method="_pO9Lwjn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOEa8Tn4Eeq2A4YSv3yYAg" name="c" type="_pLscYDn4Eeq2A4YSv3yYAg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pOGQIDn4Eeq2A4YSv3yYAg" name="subTree" method="_pO9y0Dn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOGQITn4Eeq2A4YSv3yYAg" name="fromKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOGQIjn4Eeq2A4YSv3yYAg" name="toKey" type="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+          <ownedParameter xmi:id="_pOG3MTn4Eeq2A4YSv3yYAg" type="_pCgrMDn4Eeq2A4YSv3yYAg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pMvlQDn4Eeq2A4YSv3yYAg" name="V"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pMwzYTn4Eeq2A4YSv3yYAg" name="K"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_pPQtwDn4Eeq2A4YSv3yYAg" name="" memberEnd="_pPRU0Dn4Eeq2A4YSv3yYAg _pOKhkDn4Eeq2A4YSv3yYAg">
+        <ownedEnd xmi:id="_pPRU0Dn4Eeq2A4YSv3yYAg" name="" type="_pA3scDn4Eeq2A4YSv3yYAg" association="_pPQtwDn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_pPTKADn4Eeq2A4YSv3yYAg" name="" memberEnd="_pPTKATn4Eeq2A4YSv3yYAg _pOOzADn4Eeq2A4YSv3yYAg">
+        <ownedEnd xmi:id="_pPTKATn4Eeq2A4YSv3yYAg" name="" type="_pB0usDn4Eeq2A4YSv3yYAg" association="_pPTKADn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_pPTxETn4Eeq2A4YSv3yYAg" name="" memberEnd="_pPTxEjn4Eeq2A4YSv3yYAg _pOQBIDn4Eeq2A4YSv3yYAg">
+        <ownedEnd xmi:id="_pPTxEjn4Eeq2A4YSv3yYAg" name="" type="_pB0usDn4Eeq2A4YSv3yYAg" association="_pPTxETn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_pPU_MDn4Eeq2A4YSv3yYAg" name="" memberEnd="_pPU_MTn4Eeq2A4YSv3yYAg _pORPQDn4Eeq2A4YSv3yYAg">
+        <ownedEnd xmi:id="_pPU_MTn4Eeq2A4YSv3yYAg" name="" type="_pB-fsDn4Eeq2A4YSv3yYAg" association="_pPU_MDn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_pPVmQTn4Eeq2A4YSv3yYAg" name="" memberEnd="_pPVmQjn4Eeq2A4YSv3yYAg _pOU5oDn4Eeq2A4YSv3yYAg">
+        <ownedEnd xmi:id="_pPVmQjn4Eeq2A4YSv3yYAg" name="" type="_pDF6ADn4Eeq2A4YSv3yYAg" association="_pPVmQTn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_pPWNUTn4Eeq2A4YSv3yYAg" name="" memberEnd="_pPWNUjn4Eeq2A4YSv3yYAg _pOVgsTn4Eeq2A4YSv3yYAg">
+        <ownedEnd xmi:id="_pPWNUjn4Eeq2A4YSv3yYAg" name="" type="_pDF6ADn4Eeq2A4YSv3yYAg" association="_pPWNUTn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_pPXbcDn4Eeq2A4YSv3yYAg" name="" memberEnd="_pPXbcTn4Eeq2A4YSv3yYAg _pOWu0Dn4Eeq2A4YSv3yYAg">
+        <ownedEnd xmi:id="_pPXbcTn4Eeq2A4YSv3yYAg" name="" type="_pDF6ADn4Eeq2A4YSv3yYAg" association="_pPXbcDn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_pPYCgTn4Eeq2A4YSv3yYAg" name="" memberEnd="_pPYCgjn4Eeq2A4YSv3yYAg _pPFHkTn4Eeq2A4YSv3yYAg">
+        <ownedEnd xmi:id="_pPYCgjn4Eeq2A4YSv3yYAg" name="" type="_pDF6ADn4Eeq2A4YSv3yYAg" association="_pPYCgTn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_o-P2QDn4Eeq2A4YSv3yYAg" name="performanceReport">
+      <packagedElement xmi:type="uml:Class" xmi:id="_pAB-8Dn4Eeq2A4YSv3yYAg" name="TreeSpeed">
+        <ownedComment xmi:id="_pPBdMDn4Eeq2A4YSv3yYAg">
+          <body>Provides examples on how to get timing information. 
+Use this example as a starting point while developing your own
+timing experiments (those associated with the report).  Your
+report should be in the file performanceReport.docx.
+@author cmsc132
+ *</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOcOYDn4Eeq2A4YSv3yYAg" name="main" specification="_pAOzQDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pOcOYTn4Eeq2A4YSv3yYAg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pOcOYjn4Eeq2A4YSv3yYAg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>timePolymorphicTree();
+		timeTreeMap();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOgf0Dn4Eeq2A4YSv3yYAg" name="timePolymorphicTree" specification="_pAUS0Dn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>Random r;
+		long time;
+		PolymorphicBST&lt;Integer,Integer> myTree;
+
+		// Build tree with 5000 random numbers between 1 and 500000
+		r = new Random(100L); 
+		time = System.currentTimeMillis();
+		myTree = new PolymorphicBST&lt;Integer,Integer>();
+		for (int i = 1; i&lt;5000; i++) {
+			int v = r.nextInt(500000); 
+			myTree.put(v, i);
+		}
+		time = System.currentTimeMillis() - time;
+		System.out.println(&quot;PolymorphicBST Time(msec) = &quot;+time);
+
+		// Build tree with 5000 numbers in sequence
+		time = System.currentTimeMillis();
+		myTree = new PolymorphicBST&lt;Integer,Integer>();
+		for (int i = 1; i&lt;5000; i++) {
+			myTree.put(i, i);
+		}
+		time = System.currentTimeMillis() - time;
+		System.out.println(&quot;PolymorphicBST Time(msec) = &quot;+time);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOiVADn4Eeq2A4YSv3yYAg" name="timeTreeMap" specification="_pAVg8Dn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>Random r;
+		long time;
+		TreeMap&lt;Integer,Integer> myTree;
+
+		// Build tree with 5000 random numbers between 1 and 500000
+		r = new Random(100L); 
+		time = System.currentTimeMillis();
+		myTree = new TreeMap&lt;Integer,Integer>();
+		for (int i = 1; i&lt;5000; i++) {
+			int v = r.nextInt(500000); 
+			myTree.put(v, i);
+		}
+		time = System.currentTimeMillis() - time;
+		System.out.println(&quot;TreeMap Time(msec) = &quot;+time);
+
+		// Build tree with 5000 numbers in sequence
+		time = System.currentTimeMillis();
+		myTree = new TreeMap&lt;Integer,Integer>();
+		for (int i = 1; i&lt;5000; i++) {
+			myTree.put(i, i);
+		}
+		time = System.currentTimeMillis() - time;
+		System.out.println(&quot;TreeMap Time(msec) = &quot;+time);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_pAOzQDn4Eeq2A4YSv3yYAg" name="main" isStatic="true" method="_pOcOYDn4Eeq2A4YSv3yYAg">
+          <ownedParameter xmi:id="_pAPaUDn4Eeq2A4YSv3yYAg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pAR2kDn4Eeq2A4YSv3yYAg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pAUS0Dn4Eeq2A4YSv3yYAg" name="timePolymorphicTree" visibility="private" isStatic="true" method="_pOgf0Dn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pAVg8Dn4Eeq2A4YSv3yYAg" name="timeTreeMap" visibility="private" isStatic="true" method="_pOiVADn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_o-SSgDn4Eeq2A4YSv3yYAg" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_o-SSgTn4Eeq2A4YSv3yYAg" name="junit">
+        <packagedElement xmi:type="uml:Class" xmi:id="_pLg2MDn4Eeq2A4YSv3yYAg" name="Assert"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_pLlHoDn4Eeq2A4YSv3yYAg" name="Test"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_o-Wj8Dn4Eeq2A4YSv3yYAg" name="tests">
+      <packagedElement xmi:type="uml:Class" xmi:id="_pAX9MDn4Eeq2A4YSv3yYAg" name="PublicTests">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOiVATn4Eeq2A4YSv3yYAg" name="testBasics" specification="_pAZLUDn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = 
+				new PolymorphicBST&lt;Integer,String>();
+		
+		assertEquals(0, ptree.size());
+		
+		ptree.put(2, &quot;Two&quot;);
+		ptree.put(1, &quot;One&quot;);
+		ptree.put(3, &quot;Three&quot;);
+		ptree.put(1, &quot;OneSecondTime&quot;);
+		assertEquals(3, ptree.size());
+		assertEquals(&quot;OneSecondTime&quot;, ptree.get(1));
+		assertEquals(&quot;Two&quot;, ptree.get(2));
+		assertEquals(&quot;Three&quot;, ptree.get(3));
+		assertEquals(null, ptree.get(8));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOi8EDn4Eeq2A4YSv3yYAg" name="testEmptySearchTree" specification="_pAeD0Dn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;String, Integer> ptree = 
+				new PolymorphicBST&lt;String, Integer>();
+		
+		assertEquals(0, ptree.size());
+		
+		try {
+			assertEquals(null, ptree.getMin());
+			fail(&quot;Should have thrown NoSuchElementException&quot;);
+		} catch (NoSuchElementException e) {
+			assert true; // as intended
+		}
+		try {
+			assertEquals(null, ptree.getMax());
+			fail(&quot;Should have thrown NoSuchElementException&quot;);
+		} catch (NoSuchElementException e) {
+			assert true; // as intended
+		}
+		assertEquals(null, ptree.get(&quot;a&quot;));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOi8ETn4Eeq2A4YSv3yYAg" name="testHeightInorderClear" specification="_pAf5Ajn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = 
+				new PolymorphicBST&lt;Integer,String>();
+		
+		ptree.put(2, &quot;Two&quot;);
+		ptree.put(1, &quot;One&quot;);
+		ptree.put(3, &quot;Three&quot;);
+		ptree.put(4, &quot;Four&quot;);
+		assertEquals(3, ptree.height());
+		
+		PlaceKeysValuesInArrayLists&lt;Integer, String> task =	
+				new PlaceKeysValuesInArrayLists&lt;Integer, String>();
+		ptree.inorderTraversal(task);
+		assertEquals(task.getKeys().toString(), &quot;[1, 2, 3, 4]&quot;);
+		assertEquals(task.getValues().toString(), &quot;[One, Two, Three, Four]&quot;);
+		
+		ptree.clear();
+		assertEquals(0, ptree.size());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_pAZLUDn4Eeq2A4YSv3yYAg" name="testBasics" method="_pOiVATn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pAeD0Dn4Eeq2A4YSv3yYAg" name="testEmptySearchTree" method="_pOi8EDn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pAf5Ajn4Eeq2A4YSv3yYAg" name="testHeightInorderClear" method="_pOi8ETn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_pAiVQDn4Eeq2A4YSv3yYAg" name="StudentTests">
+        <generalization xmi:id="_pMuXIDn4Eeq2A4YSv3yYAg" general="_pLpZEDn4Eeq2A4YSv3yYAg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOjjIDn4Eeq2A4YSv3yYAg" name="testPutandGet" specification="_pAjjYDn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		assertEquals(0, ptree.size());
+		assertEquals(null, ptree.get(0));
+		ptree.remove(1);
+		assertEquals(0, ptree.size());
+		ptree.put(2, &quot;Two&quot;);
+		assertEquals(1, ptree.size());
+		assertEquals(&quot;Two&quot;, ptree.get(2));
+
+		ptree.put(2, &quot;Three&quot;);
+		assertEquals(1, ptree.size());
+		assertEquals(&quot;Three&quot;, ptree.get(2));
+		
+		ptree.put(1, &quot;One&quot;);
+		ptree.put(2, &quot;Two&quot;);
+		ptree.put(3, &quot;Three&quot;);
+		assertEquals(3, ptree.size());
+		assertEquals(&quot;Two&quot;, ptree.get(2));
+		assertEquals(null, ptree.get(30));
+		</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOjjITn4Eeq2A4YSv3yYAg" name="testHeight" specification="_pAlYkjn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		ptree.put(20, &quot;Twenty&quot;);
+		assertEquals(1, ptree.height());
+		ptree.put(10, &quot;Ten&quot;);
+		assertEquals(2, ptree.height());
+		ptree.put(50, &quot;Fifty&quot;);
+		assertEquals(2, ptree.height());
+		ptree.put(40, &quot;Fourty&quot;);
+		assertEquals(3, ptree.height());
+		ptree.put(60, &quot;Sixty&quot;);
+		assertEquals(3, ptree.height());
+		ptree.put(45, &quot;FourtyFive&quot;);
+		assertEquals(4, ptree.height());
+		ptree.put(44, &quot;FourtyFour&quot;);
+		assertEquals(5, ptree.height());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOkKMDn4Eeq2A4YSv3yYAg" name="testRightRootLeftTraversal" specification="_pAnNwDn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		ptree.put(20, &quot;Twenty&quot;);
+		ptree.put(10, &quot;Ten&quot;);
+		ptree.put(50, &quot;Fifty&quot;);
+		ptree.put(40, &quot;Fourty&quot;);
+		ptree.put(60, &quot;Sixty&quot;);
+		ptree.put(45, &quot;FourtyFive&quot;);
+		ptree.put(44, &quot;FourtyFour&quot;);
+		PlaceKeysValuesInArrayLists&lt;Integer, String> task = 
+				new PlaceKeysValuesInArrayLists&lt;Integer, String>();
+		ptree.rightRootLeftTraversal(task);
+		assertEquals(task.getKeys().toString(), &quot;[60, 50, 45, 44, 40, 20, 10]&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOkKMTn4Eeq2A4YSv3yYAg" name="testAddtoCollection" specification="_pApqATn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		HashSet&lt;Integer> set = new HashSet&lt;Integer>();
+		assertEquals(set, ptree.keySet());
+		ptree.put(20, &quot;Twenty&quot;);
+		ptree.put(10, &quot;Ten&quot;);
+		ptree.put(50, &quot;Fifty&quot;);
+		ptree.put(40, &quot;Fourty&quot;);
+		set.add(20);
+		set.add(10);
+		set.add(50);
+		set.add(40);
+		assertEquals(set, ptree.keySet());
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOkKMjn4Eeq2A4YSv3yYAg" name="testSubTree" specification="_pArfMDn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		ptree.put(20, &quot;Twenty&quot;);
+		ptree.put(10, &quot;Ten&quot;);
+		ptree.put(50, &quot;Fifty&quot;);
+		ptree.put(40, &quot;Fourty&quot;);
+		ptree.put(60, &quot;Sixty&quot;);
+		ptree.put(45, &quot;FourtyFive&quot;);
+		ptree.put(44, &quot;FourtyFour&quot;);
+		PlaceKeysValuesInArrayLists&lt;Integer, String> task = 
+				new PlaceKeysValuesInArrayLists&lt;Integer, String>();
+		PolymorphicBST&lt;Integer,String> sub = ptree.subMap(9, 41);
+		sub.inorderTraversal(task);
+		assertEquals(&quot;[10, 20, 40]&quot;, task.getKeys().toString());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOkKMzn4Eeq2A4YSv3yYAg" name="testMaxandMin" specification="_pAstUjn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		ptree.put(20, &quot;Twenty&quot;);
+		ptree.put(10, &quot;Ten&quot;);
+		ptree.put(50, &quot;Fifty&quot;);
+		ptree.put(40, &quot;Fourty&quot;);
+		ptree.put(60, &quot;Sixty&quot;);
+		ptree.put(45, &quot;FourtyFive&quot;);
+		ptree.put(44, &quot;FourtyFour&quot;);
+		assertEquals(Integer.valueOf(60), ptree.getMax());
+		assertEquals(Integer.valueOf(10), ptree.getMin());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOkxQDn4Eeq2A4YSv3yYAg" name="testDelete" specification="_pAt7cjn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		ptree.put(20, &quot;Twenty&quot;);
+		ptree.put(10, &quot;Ten&quot;);
+		ptree.put(50, &quot;Fifty&quot;);
+		ptree.put(40, &quot;Fourty&quot;);
+		ptree.put(60, &quot;Sixty&quot;);
+		ptree.put(45, &quot;FourtyFive&quot;);
+		ptree.put(44, &quot;FourtyFour&quot;);
+		ptree.remove(10);
+		assertEquals(Integer.valueOf(20), ptree.getMin());
+		assertEquals(Integer.valueOf(60), ptree.getMax());
+		PlaceKeysValuesInArrayLists&lt;Integer, String> task = 
+				new PlaceKeysValuesInArrayLists&lt;Integer, String>();
+		ptree.inorderTraversal(task);
+		assertEquals(&quot;[20, 40, 44, 45, 50, 60]&quot;, task.getKeys().toString());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOkxQTn4Eeq2A4YSv3yYAg" name="testDelete2" specification="_pAvJkjn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		ptree.put(20, &quot;Twenty&quot;);
+		ptree.put(10, &quot;Ten&quot;);
+		ptree.put(50, &quot;Fifty&quot;);
+		ptree.put(40, &quot;Fourty&quot;);
+		ptree.put(60, &quot;Sixty&quot;);
+		ptree.put(45, &quot;FourtyFive&quot;);
+		ptree.put(44, &quot;FourtyFour&quot;);
+		ptree.remove(60);
+		assertEquals(Integer.valueOf(50), ptree.getMax());
+		PlaceKeysValuesInArrayLists&lt;Integer, String> task = 
+				new PlaceKeysValuesInArrayLists&lt;Integer, String>();
+		ptree.inorderTraversal(task);
+		assertEquals(&quot;[10, 20, 40, 44, 45, 50]&quot;, task.getKeys().toString());
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOkxQjn4Eeq2A4YSv3yYAg" name="testDelete3" specification="_pAwXsjn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		ptree.put(60, &quot;Sixty&quot;);
+		ptree.remove(60);
+		PlaceKeysValuesInArrayLists&lt;Integer, String> task = 
+				new PlaceKeysValuesInArrayLists&lt;Integer, String>();
+		ptree.inorderTraversal(task);
+		assertEquals(&quot;[]&quot;, task.getKeys().toString());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOlYUDn4Eeq2A4YSv3yYAg" name="testDelete4" specification="_pAyM4Tn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		ptree.remove(60);
+		PlaceKeysValuesInArrayLists&lt;Integer, String> task = 
+				new PlaceKeysValuesInArrayLists&lt;Integer, String>();
+		ptree.inorderTraversal(task);
+		assertEquals(&quot;[]&quot;, task.getKeys().toString());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pOlYUTn4Eeq2A4YSv3yYAg" name="testDelete5" specification="_pA0pIDn4Eeq2A4YSv3yYAg">
+          <language>java</language>
+          <body>PolymorphicBST&lt;Integer,String> ptree = new PolymorphicBST&lt;Integer,String>();
+		ptree.put(20, &quot;Twenty&quot;);
+		ptree.put(10, &quot;Ten&quot;);
+		ptree.put(14, &quot;Fourteen&quot;);
+		ptree.put(15, &quot;Fifteen&quot;);
+		ptree.remove(20);
+		PlaceKeysValuesInArrayLists&lt;Integer, String> task = 
+				new PlaceKeysValuesInArrayLists&lt;Integer, String>();
+		ptree.inorderTraversal(task);
+		assertEquals(&quot;[Ten, Fourteen, Fifteen]&quot;, task.getValues().toString());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_pAjjYDn4Eeq2A4YSv3yYAg" name="testPutandGet" method="_pOjjIDn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pAlYkjn4Eeq2A4YSv3yYAg" name="testHeight" method="_pOjjITn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pAnNwDn4Eeq2A4YSv3yYAg" name="testRightRootLeftTraversal" method="_pOkKMDn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pApqATn4Eeq2A4YSv3yYAg" name="testAddtoCollection" method="_pOkKMTn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pArfMDn4Eeq2A4YSv3yYAg" name="testSubTree" method="_pOkKMjn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pAstUjn4Eeq2A4YSv3yYAg" name="testMaxandMin" method="_pOkKMzn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pAt7cjn4Eeq2A4YSv3yYAg" name="testDelete" method="_pOkxQDn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pAvJkjn4Eeq2A4YSv3yYAg" name="testDelete2" method="_pOkxQTn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pAwXsjn4Eeq2A4YSv3yYAg" name="testDelete3" method="_pOkxQjn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pAyM4Tn4Eeq2A4YSv3yYAg" name="testDelete4" method="_pOlYUDn4Eeq2A4YSv3yYAg"/>
+        <ownedOperation xmi:id="_pA0pIDn4Eeq2A4YSv3yYAg" name="testDelete5" method="_pOlYUTn4Eeq2A4YSv3yYAg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_o-cDgDn4Eeq2A4YSv3yYAg" name="junit">
+      <packagedElement xmi:type="uml:Package" xmi:id="_o-cDgTn4Eeq2A4YSv3yYAg" name="framework">
+        <packagedElement xmi:type="uml:Class" xmi:id="_pLpZEDn4Eeq2A4YSv3yYAg" name="TestCase"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_oZ5zEDn4Eeq2A4YSv3yYAg">
+      <eAnnotations xmi:id="_oZ-rkDn4Eeq2A4YSv3yYAg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_oaH1gDn4Eeq2A4YSv3yYAg" base_Package="_lo1ZoDn4Eeq2A4YSv3yYAg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAZyYDn4Eeq2A4YSv3yYAg" base_Element="_pAZLUDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAc1sDn4Eeq2A4YSv3yYAg" base_Element="_pAZLUDn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAc1sTn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAfR8Dn4Eeq2A4YSv3yYAg" base_Element="_pAeD0Dn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAf5ADn4Eeq2A4YSv3yYAg" base_Element="_pAeD0Dn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAf5ATn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAhHIDn4Eeq2A4YSv3yYAg" base_Element="_pAf5Ajn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAhuMDn4Eeq2A4YSv3yYAg" base_Element="_pAf5Ajn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAhuMTn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAkxgDn4Eeq2A4YSv3yYAg" base_Element="_pAjjYDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAlYkDn4Eeq2A4YSv3yYAg" base_Element="_pAjjYDn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAlYkTn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAl_oDn4Eeq2A4YSv3yYAg" base_Element="_pAlYkjn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAmmsDn4Eeq2A4YSv3yYAg" base_Element="_pAlYkjn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAmmsTn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAob4Dn4Eeq2A4YSv3yYAg" base_Element="_pAnNwDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pApC8Dn4Eeq2A4YSv3yYAg" base_Element="_pAnNwDn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pApqADn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAqREDn4Eeq2A4YSv3yYAg" base_Element="_pApqATn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAq4IDn4Eeq2A4YSv3yYAg" base_Element="_pApqATn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAq4ITn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAsGQDn4Eeq2A4YSv3yYAg" base_Element="_pArfMDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAstUDn4Eeq2A4YSv3yYAg" base_Element="_pArfMDn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAstUTn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAtUYDn4Eeq2A4YSv3yYAg" base_Element="_pAstUjn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAt7cDn4Eeq2A4YSv3yYAg" base_Element="_pAstUjn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAt7cTn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAuigDn4Eeq2A4YSv3yYAg" base_Element="_pAt7cjn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAvJkDn4Eeq2A4YSv3yYAg" base_Element="_pAt7cjn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAvJkTn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAvwoDn4Eeq2A4YSv3yYAg" base_Element="_pAvJkjn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAwXsDn4Eeq2A4YSv3yYAg" base_Element="_pAvJkjn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAwXsTn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAw-wDn4Eeq2A4YSv3yYAg" base_Element="_pAwXsjn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pAxl0Dn4Eeq2A4YSv3yYAg" base_Element="_pAwXsjn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pAyM4Dn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pAzbADn4Eeq2A4YSv3yYAg" base_Element="_pAyM4Tn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pA0CEDn4Eeq2A4YSv3yYAg" base_Element="_pAyM4Tn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pA0CETn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pA1QMDn4Eeq2A4YSv3yYAg" base_Element="_pA0pIDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Annotations xmi:id="_pA13QDn4Eeq2A4YSv3yYAg" base_Element="_pA0pIDn4Eeq2A4YSv3yYAg">
+    <annotations xmi:id="_pA13QTn4Eeq2A4YSv3yYAg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_pA794Dn4Eeq2A4YSv3yYAg" genericsValue="K extends Comparable&lt;K>,V" base_Element="_pA3scDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:TypeParameterDeclaration xmi:id="_pA_oQDn4Eeq2A4YSv3yYAg" typeParameterDeclarationValue="K extends Comparable&lt;K>, V" base_Operation="_pA-aIDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pBBdcDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pA-aIDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pBCEgDn4Eeq2A4YSv3yYAg" base_Element="_pA-aIDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pB2j4Dn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pB0usDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pCAU4Dn4Eeq2A4YSv3yYAg" genericsValue="K extends Comparable&lt;K>, V" base_Element="_pB-fsDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pCe2ADn4Eeq2A4YSv3yYAg" genericsValue="K, V" base_Element="_pCcZwDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pCmKwDn4Eeq2A4YSv3yYAg" genericsValue="K extends Comparable&lt;K>,V " base_Element="_pCgrMDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pDHvMDn4Eeq2A4YSv3yYAg" genericsValue="K extends Comparable&lt;K>, V" base_Element="_pDF6ADn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pLckwDn4Eeq2A4YSv3yYAg" base_Element="_pLZhcDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pLgPIDn4Eeq2A4YSv3yYAg" base_Element="_pLfBADn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pLiEUDn4Eeq2A4YSv3yYAg" base_Element="_pLg2MDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pLkgkDn4Eeq2A4YSv3yYAg" base_Element="_pLirYDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pLm80Dn4Eeq2A4YSv3yYAg" base_Element="_pLlHoDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pLoyADn4Eeq2A4YSv3yYAg" base_Element="_pLoK8Dn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pLqAIDn4Eeq2A4YSv3yYAg" base_Element="_pLpZEDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pLtqgDn4Eeq2A4YSv3yYAg" base_Element="_pLscYDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pLxU4Dn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pLuRkDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pL7F4Dn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pL4CkTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pL87EDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pL7s8Dn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pMBMgDn4Eeq2A4YSv3yYAg" genericsValue="K, V" base_Element="_pL_-YDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pMFd8Dn4Eeq2A4YSv3yYAg" base_Element="_pMDowDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pMJIUDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pMH6MDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pMMLoDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pMJvYTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pMS5UDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pMRrMTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pMV8oDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pMS5Ujn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pMZnADn4Eeq2A4YSv3yYAg" genericsValue="K, V" base_Element="_pMYY4Dn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pMefgDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pMcqUDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pMhi0Dn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pMfGkTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pMwzYDn4Eeq2A4YSv3yYAg" base_Element="_pMvlQDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pMyokDn4Eeq2A4YSv3yYAg" base_Element="_pMwzYTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pM26ADn4Eeq2A4YSv3yYAg" genericsValue="K, V" base_Element="_pM1r4Dn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pM59UDn4Eeq2A4YSv3yYAg" genericsValue="K, V" base_Element="_pM4IIDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pM9nsDn4Eeq2A4YSv3yYAg" genericsValue="K" base_Element="_pM8ZkDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pNB5IDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pM_c4Dn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pNEVYDn4Eeq2A4YSv3yYAg" base_Element="_pNDHQTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pNFjgDn4Eeq2A4YSv3yYAg" base_Element="_pNE8cDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pNl50Dn4Eeq2A4YSv3yYAg" genericsValue="K, V" base_Element="_pNkrsDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pNsngDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pNrZYDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pNucsDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pNt1oDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pNxgADn4Eeq2A4YSv3yYAg" genericsValue="K" base_Element="_pNwR4Tn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pNyuIDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pNxgATn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pN40wDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pN1KYjn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pN6p8Dn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pN1xcDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pOAJgDn4Eeq2A4YSv3yYAg" genericsValue="K, V" base_Element="_pN9GMDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pOB-sDn4Eeq2A4YSv3yYAg" genericsValue="K, V" base_Element="_pOBXoDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pOFpEDn4Eeq2A4YSv3yYAg" genericsValue="K" base_Element="_pOEa8Tn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pOG3MDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pOGQIDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pOM90Dn4Eeq2A4YSv3yYAg" base_Element="_pOKhkDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pOPaEDn4Eeq2A4YSv3yYAg" genericsValue="K" base_Element="_pOOzADn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pOQoMDn4Eeq2A4YSv3yYAg" genericsValue="V" base_Element="_pOQBIDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pOTEcDn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pORPQDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pOUSkDn4Eeq2A4YSv3yYAg" base_Element="_pORPQDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pOVgsDn4Eeq2A4YSv3yYAg" base_Element="_pOU5oDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pOWHwDn4Eeq2A4YSv3yYAg" base_Element="_pOVgsTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Generics xmi:id="_pOX88Dn4Eeq2A4YSv3yYAg" genericsValue="K,V" base_Element="_pOWu0Dn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_pOX88Tn4Eeq2A4YSv3yYAg" base_Property="_pOWu0Dn4Eeq2A4YSv3yYAg" siblings="_pPFHkTn4Eeq2A4YSv3yYAg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pOYkADn4Eeq2A4YSv3yYAg" base_Element="_pOWu0Dn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_pPFuoDn4Eeq2A4YSv3yYAg" base_Property="_pPFHkTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pPGVsDn4Eeq2A4YSv3yYAg" base_Element="_pPFHkTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pPR74Dn4Eeq2A4YSv3yYAg" base_Element="_pPQtwDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pPTxEDn4Eeq2A4YSv3yYAg" base_Element="_pPTKADn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pPUYIDn4Eeq2A4YSv3yYAg" base_Element="_pPTxETn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pPVmQDn4Eeq2A4YSv3yYAg" base_Element="_pPU_MDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pPWNUDn4Eeq2A4YSv3yYAg" base_Element="_pPVmQTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pPW0YDn4Eeq2A4YSv3yYAg" base_Element="_pPWNUTn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pPYCgDn4Eeq2A4YSv3yYAg" base_Element="_pPXbcDn4Eeq2A4YSv3yYAg"/>
+  <UMLLabProfile:Reference xmi:id="_pPYpkDn4Eeq2A4YSv3yYAg" base_Element="_pPYCgTn4Eeq2A4YSv3yYAg"/>
+</xmi:XMI>
